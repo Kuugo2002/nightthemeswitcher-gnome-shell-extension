@@ -27,6 +27,7 @@ export class SwitcherCommands extends Switcher {
             timer,
             settings,
             callback: time => this.#onTimeChanged(time),
+            disableable: true,
         });
         this.#settings = settings;
     }

@@ -54,6 +54,7 @@ export class SwitcherTheme extends Switcher {
             timer,
             settings,
             callback: time => this.#onTimeChanged(time),
+            disableable: true,
         });
         this.#name = name;
         this.#timer = timer;

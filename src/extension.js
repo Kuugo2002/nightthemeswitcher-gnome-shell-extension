@@ -7,6 +7,7 @@ import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 import * as debug from './debug.js';
 
+import { ColorSchemeSwitcher } from './modules/ColorSchemeSwitcher.js';
 import { SwitcherCommands } from './modules/SwitcherCommands.js';
 import { SwitcherThemeCursor, SwitcherThemeGtk, SwitcherThemeIcon, SwitcherThemeShell } from './modules/SwitcherTheme.js';
 import { Timer } from './modules/Timer.js';
@@ -20,10 +21,15 @@ export default class NightThemeSwitcher extends Extension {
 
         debug.message('Enabling extension...');
 
-        const timer = new Timer({ settings: this.getSettings(`${this.metadata['settings-schema']}.time`), openPrefs: this.openPrefs });
+        const timer = new Timer({
+            settings: this.getSettings(`${this.metadata['settings-schema']}.time`),
+            colorSchemeSettings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`),
+            openPrefs: this.openPrefs,
+        });
         this.#modules.push(timer);
 
         [
+            new ColorSchemeSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`) }),
             new SwitcherThemeGtk({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.gtk-variants`) }),
             new SwitcherThemeIcon({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.icon-variants`) }),
             new SwitcherThemeShell({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.shell-variants`) }),

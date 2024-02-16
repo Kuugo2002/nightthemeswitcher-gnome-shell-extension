@@ -20,12 +20,14 @@ main = [
   'utils.js',
 ]
 enums = [
+  'enums/ColorScheme.js',
   'enums/Time.js',
 ]
 icons = [
   'data/icons/nightthemeswitcher-symbolic.svg',
 ]
 modules = [
+  'modules/ColorSchemeSwitcher.js',
   'modules/Switcher.js',
   'modules/SwitcherCommands.js',
   'modules/SwitcherTheme.js',

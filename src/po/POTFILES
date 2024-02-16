@@ -17,8 +17,10 @@ src/data/ui/ShortcutButton.ui
 src/data/ui/ThemesPage.ui
 src/data/ui/TimeChooser.ui
 
+src/enums/ColorScheme.js
 src/enums/Time.js
 
+src/modules/ColorSchemeSwitcher.js
 src/modules/Switcher.js
 src/modules/SwitcherCommands.js
 src/modules/SwitcherTheme.js

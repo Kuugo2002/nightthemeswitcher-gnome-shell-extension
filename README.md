@@ -88,3 +88,14 @@ If you know your coordinates, you can enter them in a hidden setting, and the ex
 ```
 gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time location '($LATITUDE,$LONGITUDE)'
 ```
+
+### I want to use the `prefer-light` color scheme or change the color scheme used during the day/night
+
+There are two hidden settings to change the color scheme used during the day or night:
+
+```
+gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.color-scheme day $DESIRED_COLORSCHEME
+gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.color-scheme night $DESIRED_COLORSCHEME
+```
+
+With `$DESIRED_COLORSCHEME` one of `default`, `prefer-dark` or `prefer-light`.

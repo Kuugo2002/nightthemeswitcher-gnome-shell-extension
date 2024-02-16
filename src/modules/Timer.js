@@ -14,6 +14,7 @@ import * as MessageTray from 'resource:///org/gnome/shell/ui/messageTray.js';
 
 import * as debug from '../debug.js';
 
+import { ColorScheme } from '../enums/ColorScheme.js'; // eslint-disable-line no-unused-vars
 import { Time } from '../enums/Time.js';
 
 
@@ -28,6 +29,7 @@ import { Time } from '../enums/Time.js';
  */
 export class Timer extends GObject.Object {
     #settings;
+    #colorSchemeSettings;
     #interfaceSettings;
     #locationSettings;
     #openPrefs;
@@ -54,11 +56,13 @@ export class Timer extends GObject.Object {
     /**
      * @param {object} params Params object.
      * @param {Gio.Settings} params.settings Timer settings.
+     * @param {Gio.Settings} params.colorSchemeSettings Color Scheme settings.
      * @param {Function} params.openPrefs Function opening the extension preferences.
      */
-    constructor({ settings, openPrefs }) {
+    constructor({ settings, colorSchemeSettings, openPrefs }) {
         super();
         this.#settings = settings;
+        this.#colorSchemeSettings = colorSchemeSettings;
         this.#interfaceSettings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
         this.#locationSettings = new Gio.Settings({ schema: 'org.gnome.system.location' });
         this.#openPrefs = openPrefs;
@@ -92,6 +96,13 @@ export class Timer extends GObject.Object {
         debug.message('Timer disabled.');
     }
 
+    /**
+     * @param {ColorScheme} colorScheme Color scheme to sync the time to.
+     */
+    syncTimeToColorScheme(colorScheme) {
+        this.#changeTime(this.#colorSchemeToTime(colorScheme), true);
+    }
+
 
     get time() {
         return this.#time || Time.UNKNOWN;
@@ -113,7 +124,7 @@ export class Timer extends GObject.Object {
         debug.message(manual ? `Time manually set to ${time}.` : `Time changed to ${time}.`);
 
         layoutManager.screenTransition.run();
-        this.#interfaceSettings.set_string('color-scheme', time === Time.NIGHT ? 'prefer-dark' : 'default');
+
         this.notify('time');
     }
 
@@ -131,10 +142,6 @@ export class Timer extends GObject.Object {
         this.#settingsConnections.push({
             settings: this.#settings,
             id: this.#settings.connect('changed::nightthemeswitcher-ondemand-keybinding', this.#onOndemandKeybindingChanged.bind(this)),
-        });
-        this.#settingsConnections.push({
-            settings: this.#interfaceSettings,
-            id: this.#interfaceSettings.connect('changed::color-scheme', this.#onColorSchemeChanged.bind(this)),
         });
         // Only listen to the offset setting when not using a manual schedule
         if (!this.#settings.get_boolean('manual-schedule')) {
@@ -234,8 +241,8 @@ export class Timer extends GObject.Object {
     }
 
 
-    #colorSchemeToTime() {
-        return this.#interfaceSettings.get_string('color-scheme') === 'prefer-dark' ? Time.NIGHT : Time.DAY;
+    #colorSchemeToTime(colorScheme) {
+        return colorScheme === this.#colorSchemeSettings.get_string('night') ? Time.NIGHT : Time.DAY;
     }
 
 
@@ -256,10 +263,6 @@ export class Timer extends GObject.Object {
     #onOndemandKeybindingChanged() {
         this.#removeKeybinding();
         this.#addKeybinding();
-    }
-
-    #onColorSchemeChanged() {
-        this.#changeTime(this.#colorSchemeToTime(), true);
     }
 
     #onGeoclueReady(_geoclue, result) {
@@ -325,7 +328,7 @@ export class Timer extends GObject.Object {
             return hour >= sunrise || hour < sunset ? Time.DAY : Time.NIGHT;
         // Sunset and Sunrise times are identical; preserve current theme
         else
-            return this.#time || this.#colorSchemeToTime();
+            return this.#time || this.#colorSchemeToTime(this.#interfaceSettings.get_string('color-scheme'));
     }
 
     #updateSuntimes() {

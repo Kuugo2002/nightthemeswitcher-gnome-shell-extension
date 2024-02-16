@@ -21,6 +21,7 @@ export class Switcher {
     #timer;
     #settings;
     #callback;
+    #disableable;
 
     #statusConnection = null;
     #timerConnection = null;
@@ -29,20 +30,23 @@ export class Switcher {
      * @param {object} params Params object.
      * @param {string} params.name Name of the switcher.
      * @param {Timer} params.timer Timer to listen to.
-     * @param {Gio.Settings} params.settings Settings with the `enabled` key.
+     * @param {Gio.Settings} params.settings Settings.
      * @param {TimeChangedCallback} params.callback Callback function.
+     * @param {boolean} params.disableable If the switcher can be disabled using an `enabled` key in the settings.
      */
-    constructor({ name, timer, settings, callback }) {
+    constructor({ name, timer, settings, callback, disableable = false }) {
         this.#name = name;
         this.#timer = timer;
         this.#settings = settings;
         this.#callback = callback;
+        this.#disableable = disableable;
     }
 
     enable() {
         debug.message(`Enabling ${this.#name} switcher...`);
-        this.#watchStatus();
-        if (this.#settings.get_boolean('enabled')) {
+        if (this.#disableable)
+            this.#watchStatus();
+        if (!this.#disableable || this.#settings.get_boolean('enabled')) {
             this.#connectTimer();
             this.#onTimeChanged();
         }
@@ -52,7 +56,8 @@ export class Switcher {
     disable() {
         debug.message(`Disabling ${this.#name} switcher...`);
         this.#disconnectTimer();
-        this.#unwatchStatus();
+        if (this.#disableable)
+            this.#unwatchStatus();
         debug.message(`${this.#name} switcher disabled.`);
     }
 
