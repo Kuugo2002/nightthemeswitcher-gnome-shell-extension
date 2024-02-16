@@ -123,7 +123,9 @@ export class Timer extends GObject.Object {
 
         debug.message(manual ? `Time manually set to ${time}.` : `Time changed to ${time}.`);
 
-        layoutManager.screenTransition.run();
+        const isMonitorFullscreen = layoutManager.monitors.some(monitor => monitor.inFullscreen);
+        if (this.#settings.get_boolean('fullscreen-transition') || !isMonitorFullscreen)
+            layoutManager.screenTransition.run();
 
         this.notify('time');
     }

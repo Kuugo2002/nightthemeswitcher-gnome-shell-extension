@@ -73,6 +73,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<key name="nightthemeswitcher-ondemand-keybinding" type="as">
 			<default><![CDATA[['<Shift><Super>t']]]></default>
 		</key>
+		<key name="fullscreen-transition" type="b">
+			<default>true</default>
+		</key>
 		<key name="manual-schedule" type="b">
 			<default>false</default>
 		</key>

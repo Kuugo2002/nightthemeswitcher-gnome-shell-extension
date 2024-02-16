@@ -51,6 +51,15 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <child>
       <object class="AdwPreferencesGroup">
         <child>
+          <object class="AdwSwitchRow" id="fullscreen_transition_switch">
+            <property name="title" translatable="yes">Run the transition when an app is fullscreen</property>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Keyboard shortcut</property>
             <property name="activatable-widget">keyboard_shortcut_button</property>
