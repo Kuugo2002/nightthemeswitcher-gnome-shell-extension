@@ -13,7 +13,7 @@ import { Switcher } from './Switcher.js';
 /**
  * The Commands Switcher spawns commands according to the time.
  */
-export class SwitcherCommands extends Switcher {
+export class CommandsSwitcher extends Switcher {
     #settings;
 
     /**

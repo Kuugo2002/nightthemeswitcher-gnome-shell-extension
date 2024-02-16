@@ -27,8 +27,8 @@ icons = [
 ]
 modules = [
   'modules/ColorSchemeSwitcher.js',
+  'modules/CommandsSwitcher.js',
   'modules/Switcher.js',
-  'modules/SwitcherCommands.js',
   'modules/Timer.js',
 ]
 preferences = [

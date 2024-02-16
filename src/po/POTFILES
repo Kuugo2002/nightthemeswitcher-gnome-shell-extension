@@ -19,8 +19,8 @@ src/enums/ColorScheme.js
 src/enums/Time.js
 
 src/modules/ColorSchemeSwitcher.js
+src/modules/CommandsSwitcher.js
 src/modules/Switcher.js
-src/modules/SwitcherCommands.js
 src/modules/Timer.js
 
 src/preferences/BackgroundButton.js

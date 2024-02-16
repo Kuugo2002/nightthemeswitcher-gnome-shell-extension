@@ -8,7 +8,7 @@ import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 import * as debug from './debug.js';
 
 import { ColorSchemeSwitcher } from './modules/ColorSchemeSwitcher.js';
-import { SwitcherCommands } from './modules/SwitcherCommands.js';
+import { CommandsSwitcher } from './modules/CommandsSwitcher.js';
 import { Timer } from './modules/Timer.js';
 
 
@@ -29,7 +29,7 @@ export default class NightThemeSwitcher extends Extension {
 
         [
             new ColorSchemeSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`) }),
-            new SwitcherCommands({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.commands`) }),
+            new CommandsSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.commands`) }),
         ].forEach(module => this.#modules.push(module));
 
         this.#modules.forEach(module => module.enable());
