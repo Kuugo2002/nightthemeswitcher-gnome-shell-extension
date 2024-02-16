@@ -81,6 +81,8 @@ There's a hidden setting to configure the offset (in hours) applied to the calcu
 gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time offset $DESIRED_OFFSET
 ```
 
+The default offset is `0.4`, set it to `0` do disable it.
+
 ### I have disabled Location services but want to use sunrise and sunset times from my location
 
 If you know your coordinates, you can enter them in a hidden setting, and the extension will use them to calculate the sunrise and sunset times. You can set it with the `gsettings` command:
