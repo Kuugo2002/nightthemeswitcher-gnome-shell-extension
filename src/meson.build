@@ -17,7 +17,6 @@ main = [
   'debug.js',
   'extension.js',
   'prefs.js',
-  'utils.js',
 ]
 enums = [
   'enums/ColorScheme.js',
@@ -30,7 +29,6 @@ modules = [
   'modules/ColorSchemeSwitcher.js',
   'modules/Switcher.js',
   'modules/SwitcherCommands.js',
-  'modules/SwitcherTheme.js',
   'modules/Timer.js',
 ]
 preferences = [
@@ -39,10 +37,8 @@ preferences = [
   'preferences/ClearableEntry.js',
   'preferences/CommandsPage.js',
   'preferences/ContributePage.js',
-  'preferences/DropDownChoice.js',
   'preferences/SchedulePage.js',
   'preferences/ShortcutButton.js',
-  'preferences/ThemesPage.js',
   'preferences/TimeChooser.js',
 ]
 

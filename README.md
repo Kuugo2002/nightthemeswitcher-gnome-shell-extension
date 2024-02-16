@@ -65,7 +65,11 @@ You're welcome to contribute to the code or the translations! See [CONTRIBUTING.
 
 Like GNOME's built-in dark mode, the extension switches the standard freedesktop.org color scheme preference. Older applications might not follow this preference.
 
-It is possible to force a GTK theme in the extension preferences, but please note that this can visually break applications. It is better to ask the developers of the applications to support the standard preference.
+It is possible to force a GTK theme by running commands in the extension preferences, but please note that this can visually break applications. It is better to ask the developers of the applications to support the standard preference.
+
+```
+gsettings set org.gnome.desktop.interface gtk-theme $THEME_NAME
+```
 
 ### Something doesn't work on Ubuntu
 

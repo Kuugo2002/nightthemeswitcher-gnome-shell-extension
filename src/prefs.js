@@ -42,10 +42,8 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         const { ClearableEntry } = await import('./preferences/ClearableEntry.js');
         const { CommandsPage } = await import('./preferences/CommandsPage.js');
         const { ContributePage } = await import('./preferences/ContributePage.js');
-        const { DropDownChoice } = await import('./preferences/DropDownChoice.js');
         const { SchedulePage } = await import('./preferences/SchedulePage.js');
         const { ShortcutButton } = await import('./preferences/ShortcutButton.js');
-        const { ThemesPage } = await import('./preferences/ThemesPage.js');
         const { TimeChooser } = await import('./preferences/TimeChooser.js');
 
         // Make sure all GObjects are registered
@@ -54,10 +52,8 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         GObject.type_ensure(ClearableEntry);
         GObject.type_ensure(CommandsPage);
         GObject.type_ensure(ContributePage);
-        GObject.type_ensure(DropDownChoice);
         GObject.type_ensure(SchedulePage);
         GObject.type_ensure(ShortcutButton);
-        GObject.type_ensure(ThemesPage);
         GObject.type_ensure(TimeChooser);
 
         // Remove the dummy page
@@ -68,12 +64,6 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
             new SchedulePage({ settings: this.getSettings(`${this.metadata['settings-schema']}.time`) }),
             new BackgroundsPage(),
             new CommandsPage({ settings: this.getSettings(`${this.metadata['settings-schema']}.commands`) }),
-            new ThemesPage({
-                gtkSettings: this.getSettings(`${this.metadata['settings-schema']}.gtk-variants`),
-                shellSettings: this.getSettings(`${this.metadata['settings-schema']}.shell-variants`),
-                iconSettings: this.getSettings(`${this.metadata['settings-schema']}.icon-variants`),
-                cursorSettings: this.getSettings(`${this.metadata['settings-schema']}.cursor-variants`),
-            }),
             new ContributePage(),
         ].forEach(page => window.add(page));
     }

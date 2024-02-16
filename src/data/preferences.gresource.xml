@@ -20,7 +20,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" preprocess="xml-stripblanks">ui/ContributePage.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SchedulePage.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/ShortcutButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/ThemesPage.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/TimeChooser.ui</file>
 	</gresource>
 </gresources>

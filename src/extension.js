@@ -9,7 +9,6 @@ import * as debug from './debug.js';
 
 import { ColorSchemeSwitcher } from './modules/ColorSchemeSwitcher.js';
 import { SwitcherCommands } from './modules/SwitcherCommands.js';
-import { SwitcherThemeCursor, SwitcherThemeGtk, SwitcherThemeIcon, SwitcherThemeShell } from './modules/SwitcherTheme.js';
 import { Timer } from './modules/Timer.js';
 
 
@@ -30,10 +29,6 @@ export default class NightThemeSwitcher extends Extension {
 
         [
             new ColorSchemeSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`) }),
-            new SwitcherThemeGtk({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.gtk-variants`) }),
-            new SwitcherThemeIcon({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.icon-variants`) }),
-            new SwitcherThemeShell({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.shell-variants`) }),
-            new SwitcherThemeCursor({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.cursor-variants`) }),
             new SwitcherCommands({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.commands`) }),
         ].forEach(module => this.#modules.push(module));
 
