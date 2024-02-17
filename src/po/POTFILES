@@ -8,7 +8,6 @@ src/data/org.gnome.shell.extensions.nightthemeswitcher.gschema.xml
 
 src/data/ui/BackgroundButton.ui
 src/data/ui/BackgroundsPage.ui
-src/data/ui/ClearableEntry.ui
 src/data/ui/CommandsPage.ui
 src/data/ui/ContributePage.ui
 src/data/ui/SchedulePage.ui
@@ -25,7 +24,6 @@ src/modules/Timer.js
 
 src/preferences/BackgroundButton.js
 src/preferences/BackgroundsPage.js
-src/preferences/ClearableEntry.js
 src/preferences/CommandsPage.js
 src/preferences/ContributePage.js
 src/preferences/SchedulePage.js

@@ -39,7 +39,6 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         // Dynamically import all classes
         const { BackgroundButton } = await import('./preferences/BackgroundButton.js');
         const { BackgroundsPage } = await import('./preferences/BackgroundsPage.js');
-        const { ClearableEntry } = await import('./preferences/ClearableEntry.js');
         const { CommandsPage } = await import('./preferences/CommandsPage.js');
         const { ContributePage } = await import('./preferences/ContributePage.js');
         const { SchedulePage } = await import('./preferences/SchedulePage.js');
@@ -49,7 +48,6 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         // Make sure all GObjects are registered
         GObject.type_ensure(BackgroundButton);
         GObject.type_ensure(BackgroundsPage);
-        GObject.type_ensure(ClearableEntry);
         GObject.type_ensure(CommandsPage);
         GObject.type_ensure(ContributePage);
         GObject.type_ensure(SchedulePage);

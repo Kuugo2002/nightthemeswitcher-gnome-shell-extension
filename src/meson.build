@@ -34,7 +34,6 @@ modules = [
 preferences = [
   'preferences/BackgroundButton.js',
   'preferences/BackgroundsPage.js',
-  'preferences/ClearableEntry.js',
   'preferences/CommandsPage.js',
   'preferences/ContributePage.js',
   'preferences/SchedulePage.js',

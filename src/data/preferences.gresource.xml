@@ -15,7 +15,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/categories/nightthemeswitcher-themes-symbolic.svg">icons/themes-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/BackgroundButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/BackgroundsPage.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/ClearableEntry.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/CommandsPage.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/ContributePage.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SchedulePage.ui</file>

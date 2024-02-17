@@ -17,31 +17,17 @@ SPDX-License-Identifier: GPL-3.0-or-later
           </object>
         </property>
         <child>
-          <object class="AdwActionRow">
+          <object class="AdwEntryRow" id="sunrise_entry">
             <property name="title" translatable="yes">Sunrise</property>
-            <property name="activatable-widget">sunrise_entry</property>
-            <child>
-              <object class="ClearableEntry" id="sunrise_entry">
-                <property name="placeholder-text" translatable="yes" comments="Don't translate the `notify-send` command.">notify-send "Hello sunshine!"</property>
-                <property name="input-purpose">terminal</property>
-                <property name="width-chars">28</property>
-                <property name="valign">center</property>
-              </object>
-            </child>
+            <property name="input-purpose">terminal</property>
+            <property name="attributes">0 -1 font-desc "Mono"</property>
           </object>
         </child>
         <child>
-          <object class="AdwActionRow">
+          <object class="AdwEntryRow" id="sunset_entry">
             <property name="title" translatable="yes">Sunset</property>
-            <property name="activatable-widget">sunset_entry</property>
-            <child>
-              <object class="ClearableEntry" id="sunset_entry">
-                <property name="placeholder-text" translatable="yes" comments="Don't translate the `notify-send` command.">notify-send "Hello moonshine!"</property>
-                <property name="input-purpose">terminal</property>
-                <property name="width-chars">28</property>
-                <property name="valign">center</property>
-              </object>
-            </child>
+            <property name="input-purpose">terminal</property>
+            <property name="attributes">0 -1 font-desc "Mono"</property>
           </object>
         </child>
       </object>
