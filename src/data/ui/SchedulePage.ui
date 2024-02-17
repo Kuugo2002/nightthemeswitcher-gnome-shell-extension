@@ -19,6 +19,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Sunrise</property>
+            <property name="sensitive" bind-source="manual_schedule_switch" bind-property="active" bind-flags="sync-create"/>
             <child>
               <object class="TimeChooser" id="schedule_sunrise_time_chooser">
                 <property name="margin-top">12</property>
@@ -31,6 +32,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <child>
           <object class="AdwActionRow">
             <property name="title" translatable="yes">Sunset</property>
+            <property name="sensitive" bind-source="manual_schedule_switch" bind-property="active" bind-flags="sync-create"/>
             <child>
               <object class="TimeChooser" id="schedule_sunset_time_chooser">
                 <property name="margin-top">12</property>
