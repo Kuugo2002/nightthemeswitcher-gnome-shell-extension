@@ -10,10 +10,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="icon-name">nightthemeswitcher-schedule-symbolic</property>
     <child>
       <object class="AdwPreferencesGroup">
-        <property name="description" translatable="yes">Your location will be used to calculate the current sunrise and sunset times. If you prefer, you can set a manual schedule. It will also be used when your location is unavailable.</property>
         <child>
           <object class="AdwSwitchRow" id="manual_schedule_switch">
             <property name="title" translatable="yes">Manual schedule</property>
+            <property name="subtitle" translatable="yes">Use a manual schedule instead of the one computed from your location.</property>
           </object>
         </child>
         <child>

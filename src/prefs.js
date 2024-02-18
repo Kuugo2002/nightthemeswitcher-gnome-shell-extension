@@ -30,7 +30,7 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
 
         // Set window properties
         window.search_enabled = true;
-        window.set_default_size(500, 700);
+        window.set_default_size(500, 630);
 
         // Add a dummy page until the dynamics imports are done
         const dummyPage = new Adw.PreferencesPage();
