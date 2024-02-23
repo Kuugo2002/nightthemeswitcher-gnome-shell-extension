@@ -7,89 +7,94 @@ msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-30 14:37+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-02-24 19:02+0000\n"
+"Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "पृष्ठभूमि बदलें"
 
 #: src/data/ui/BackgroundButton.ui:24
 msgid "Select your background image"
-msgstr ""
+msgstr "अपनी पृष्ठभूमि छवि चुनें"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "पृष्ठभूमि"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"पृष्ठभूमि स्विचिंग को Shell द्वारा नियंत्रित किया जाता है, ये सेटिंग्स आपको "
+"इसके द्वारा उपयोग की जाने वाली छवियों को बदलने की अनुमति देती हैं।"
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "दिन की पृष्ठभूमि"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "रात की पृष्ठभूमि"
 
 #: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "साफ़"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "कमांड"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "कमांड चलाएँ"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
 msgid "Sunrise"
-msgstr ""
+msgstr "सूर्योदय"
 
 #. Don't translate the `notify-send` command.
 #: src/data/ui/CommandsPage.ui:25
 msgid "notify-send \"Hello sunshine!\""
-msgstr ""
+msgstr "notify-send \"हैलो सनशाइन!\""
 
 #: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
 msgid "Sunset"
-msgstr ""
+msgstr "सूर्यास्त"
 
 #. Don't translate the `notify-send` command.
 #: src/data/ui/CommandsPage.ui:39
 msgid "notify-send \"Hello moonshine!\""
-msgstr ""
+msgstr "notify-send \"हैलो मूनशाइन!\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "योगदान"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "View the code and report issues"
-msgstr ""
+msgstr "कोड देखें और समस्याओं की रिपोर्ट करें"
 
 #: src/data/ui/ContributePage.ui:68
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "अनुवाद में योगदान दें"
 
 #: src/data/ui/ContributePage.ui:81
 msgid "Support me with a donation"
-msgstr ""
+msgstr "दान देकर मेरा समर्थन करें"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "शेड्यूल"
 
 #: src/data/ui/SchedulePage.ui:13
 msgid ""
@@ -97,99 +102,108 @@ msgid ""
 "times. If you prefer, you can set a manual schedule. It will also be used "
 "when your location is unavailable."
 msgstr ""
+"आपके स्थान का उपयोग वर्तमान सूर्योदय और सूर्यास्त के समय की गणना करने के लिए "
+"किया जाएगा। यदि आप चाहें, तो आप मैन्युअल शेड्यूल सेट कर सकते हैं। इसका उपयोग "
+"तब भी किया जाएगा जब आपका स्थान अनुपलब्ध हो।"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Manual schedule"
-msgstr ""
+msgstr "मैन्युअल शेड्यूल"
 
 #: src/data/ui/SchedulePage.ui:57
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "कीबोर्ड शॉर्टकट"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "चुनें…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "कीबोर्ड शॉर्टकट बदलें"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "अपना कीबोर्ड शॉर्टकट दबाएँ…"
 
 #: src/data/ui/ThemesPage.ui:9
 msgid "Themes"
-msgstr ""
+msgstr "थीम्स"
 
 #: src/data/ui/ThemesPage.ui:15
 msgid ""
 "GNOME has a built-in dark mode that the extension uses. Manually switching "
 "themes is discouraged and is only here for legacy reasons."
 msgstr ""
+"GNOME में एक अंतर्निर्मित डार्क मोड है जिसका एक्सटेंशन उपयोग करता है। मैन्यु"
+"अल रूप से थीम बदलने को हतोत्साहित किया जाता है और यह केवल विरासती कारणों से "
+"है।"
 
 #: src/data/ui/ThemesPage.ui:30
 msgid "Switch GTK theme"
-msgstr ""
+msgstr "GTK थीम स्विच करें"
 
 #: src/data/ui/ThemesPage.ui:31
 msgid ""
 "Forcing a dark theme on applications not designed to support it can have "
 "undesirable side-effects such as unreadable text or invisible icons."
 msgstr ""
+"ऐसे अनुप्रयोगों पर डार्क थीम को जबरदस्ती थोपना जो इसके समर्थन के लिए डिज़ाइन "
+"नहीं किए गए हैं, के अवांछनीय दुष्प्रभाव हो सकते हैं जैसे कि अपठनीय पाठ या "
+"अदृश्य आइकन।"
 
 #: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
 #: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
 msgid "Day variant"
-msgstr ""
+msgstr "दिन का प्रकार"
 
 #: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
 #: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
 msgid "Night variant"
-msgstr ""
+msgstr "रात्रि संस्करण"
 
 #: src/data/ui/ThemesPage.ui:47
 msgid "Switch Shell theme"
-msgstr ""
+msgstr "Shell थीम स्विच करें"
 
 #: src/data/ui/ThemesPage.ui:63
 msgid "Switch icon theme"
-msgstr ""
+msgstr "आइकन थीम स्विच करें"
 
 #: src/data/ui/ThemesPage.ui:79
 msgid "Switch cursor theme"
-msgstr ""
+msgstr "कर्सर थीम स्विच करें"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:23
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: src/modules/Timer.js:268
 msgid "Unknown Location"
-msgstr ""
+msgstr "अज्ञात स्थान"
 
 #: src/modules/Timer.js:269
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "डार्क मोड को स्विच करने के लिए मैन्युअल शेड्यूल का उपयोग किया जाएगा।"
 
 #: src/modules/Timer.js:274
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "मैन्युअल शेड्यूल संपादित करें"
 
 #: src/modules/Timer.js:278
 msgid "Open Location Settings"
-msgstr ""
+msgstr "स्थान सेटिंग खोलें"
 
 #: src/preferences/BackgroundButton.js:86
 msgid "This image format is not supported."
-msgstr ""
+msgstr "यह छवि प्रारूप समर्थित नहीं है।"
 
 #: src/preferences/ContributePage.js:16
 #, javascript-format
 msgid "Version %d"
-msgstr ""
+msgstr "संस्करण %d"
 
 #: src/preferences/ThemesPage.js:50
 msgid "Default"
-msgstr ""
+msgstr "डिफ़ॉल्ट"
