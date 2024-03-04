@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2022-11-02 13:32+0000\n"
 "Last-Translator: citrus flavor <sugar826@outlook.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,10 +46,6 @@ msgstr "日中のデスクトップ背景"
 msgid "Night background"
 msgstr "夜間のデスクトップ背景"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "クリア"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "コマンド"
@@ -58,59 +54,43 @@ msgstr "コマンド"
 msgid "Run commands"
 msgstr "コマンドの実行"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "日の出"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"こんにちは、日光さん!\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "日の入り"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"こんにちは、月光さん!\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "貢献する"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "コードの表示と問題の報告"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "翻訳の協力"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "寄付で製作者をサポートする"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-"あなたの位置情報をもとに、現在の日の出・日の入り時刻が計算されます。必要に応"
-"じてスケジュールを手動で設定することもできます。このスケジュールは位置情報を"
-"取得できない場合にも使用されます。"
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "スケジュールの手動設定"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "キーボードショートカット"
 
@@ -122,90 +102,107 @@ msgstr "選択する…"
 msgid "Change keyboard shortcut"
 msgstr "キーボードショートカットの変更"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "クリア"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "使用したいキーボードショートカットを押下してください…"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "テーマ"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOMEには、拡張機能が使用するダークモードが組み込まれています。テーマを手動で"
-"切り替えることは推奨されません。これは従来の理由によるものです。"
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "GTKテーマの切り替え"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"ダークテーマをサポートするように設計されていないアプリケーションにダークテー"
-"マを強制的に適用すると、文章が読めなくなったりアイコンが見えなくなったりする"
-"などの望ましくない問題が発生することがあります。"
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "日中のテーマ"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "夜間のテーマ"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "Shellテーマの切り替え"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "アイコンテーマの切り替え"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "カーソルテーマの切り替え"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "現在位置が不明です"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "手動設定されたスケジュールを使用してダークモードを切り替えます。"
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "スケジュールの変更"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "位置情報の設定を開く"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "この画像形式は利用できません。"
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "バージョン %d"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"こんにちは、日光さん!\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "デフォルト"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"こんにちは、月光さん!\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "寄付で製作者をサポートする"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "あなたの位置情報をもとに、現在の日の出・日の入り時刻が計算されます。必要に"
+#~ "応じてスケジュールを手動で設定することもできます。このスケジュールは位置情"
+#~ "報を取得できない場合にも使用されます。"
+
+#~ msgid "Themes"
+#~ msgstr "テーマ"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOMEには、拡張機能が使用するダークモードが組み込まれています。テーマを手"
+#~ "動で切り替えることは推奨されません。これは従来の理由によるものです。"
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "GTKテーマの切り替え"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "ダークテーマをサポートするように設計されていないアプリケーションにダーク"
+#~ "テーマを強制的に適用すると、文章が読めなくなったりアイコンが見えなくなった"
+#~ "りするなどの望ましくない問題が発生することがあります。"
+
+#~ msgid "Day variant"
+#~ msgstr "日中のテーマ"
+
+#~ msgid "Night variant"
+#~ msgstr "夜間のテーマ"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "Shellテーマの切り替え"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "アイコンテーマの切り替え"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "カーソルテーマの切り替え"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "バージョン %d"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
 
 #~ msgid ""
 #~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."

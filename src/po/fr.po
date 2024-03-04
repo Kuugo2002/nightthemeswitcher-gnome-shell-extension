@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2022-10-30 13:45+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,10 +47,6 @@ msgstr "Arrière-plan diurne"
 msgid "Night background"
 msgstr "Arrière-plan nocturne"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "Effacer"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "Commandes"
@@ -59,59 +55,43 @@ msgstr "Commandes"
 msgid "Run commands"
 msgstr "Lancer des commandes"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "Lever du soleil"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"Bonjour!\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "Coucher du soleil"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"Bonsoir!\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "Contribuer"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "Voir le code et signaler des problèmes"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "Contribuer à la traduction"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "Me soutenir avec un don"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "Horaires"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-"Votre position sera utilisée pour calculer les heures de lever et de coucher "
-"de soleil actuels. Si vous préférez, vous pouvez définir un horaire manuel. "
-"Il sera également utilisé si votre position est indisponible."
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "Horaire manuel"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "Raccourci clavier"
 
@@ -123,90 +103,108 @@ msgstr "Choisir…"
 msgid "Change keyboard shortcut"
 msgstr "Changer le raccourci clavier"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "Effacer"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "Pressez votre raccourci clavier…"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "Thèmes"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOME a un mode sombre intégré que l’extension utilise. Permuter "
-"manuellement les thèmes est déconseillé et n’est possible que pour des "
-"raisons historiques."
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "Permuter le thème GTK"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"Forcer un thème sombre sur une application non-conçue pour peut avoir des "
-"effets indésirables, comme des textes illisibles ou des icônes invisibles."
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "Variante diurne"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "Variante nocturne"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "Permuter le thème du Shell"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "Permuter le thème d’icônes"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "Permuter le thème de curseur"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "Position inconnue"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "Un horaire manuel sera utilisé pour permuter le mode sombre."
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "Modifier l’horaire manuel"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "Ouvrir les paramètres de localisation"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Ce format d’image n’est pas supporté."
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "Version %d"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"Bonjour!\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "Par défaut"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"Bonsoir!\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "Me soutenir avec un don"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "Votre position sera utilisée pour calculer les heures de lever et de "
+#~ "coucher de soleil actuels. Si vous préférez, vous pouvez définir un "
+#~ "horaire manuel. Il sera également utilisé si votre position est "
+#~ "indisponible."
+
+#~ msgid "Themes"
+#~ msgstr "Thèmes"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOME a un mode sombre intégré que l’extension utilise. Permuter "
+#~ "manuellement les thèmes est déconseillé et n’est possible que pour des "
+#~ "raisons historiques."
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "Permuter le thème GTK"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "Forcer un thème sombre sur une application non-conçue pour peut avoir des "
+#~ "effets indésirables, comme des textes illisibles ou des icônes invisibles."
+
+#~ msgid "Day variant"
+#~ msgstr "Variante diurne"
+
+#~ msgid "Night variant"
+#~ msgstr "Variante nocturne"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "Permuter le thème du Shell"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "Permuter le thème d’icônes"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "Permuter le thème de curseur"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "Version %d"
+
+#~ msgid "Default"
+#~ msgstr "Par défaut"
 
 #~ msgid ""
 #~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."
@@ -537,9 +535,9 @@ msgstr "Par défaut"
 
 #~ msgid ""
 #~ "You can manually set variants if the extension cannot automatically "
-#~ "detect the day and night variants of your GTK theme. Please <a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">submit a request</a> to get your theme supported."
+#~ "detect the day and night variants of your GTK theme. Please <a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">submit a request</a> to get your theme supported."
 #~ msgstr ""
 #~ "Vous pouvez manuellement définir les variantes si l’extension ne parvient "
 #~ "pas à déterminer les variantes diurnes et nocturnes de votre thème GTK. "
@@ -660,10 +658,10 @@ msgstr "Par défaut"
 #~ "L’extension essayera de déterminer automatiquement les variantes diurnes "
 #~ "et nocturnes de votre thème GTK.\n"
 #~ "\n"
-#~ "Si le thème que vous utilisez n’est pas pris en charge, merci d’<a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">ouvrir une demande</a>. Vous pouvez aussi sélectionner "
-#~ "manuellement les variantes."
+#~ "Si le thème que vous utilisez n’est pas pris en charge, merci d’<a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">ouvrir une demande</a>. Vous pouvez aussi "
+#~ "sélectionner manuellement les variantes."
 
 #~ msgid "You can set different icon themes for day and night."
 #~ msgstr ""
@@ -683,10 +681,10 @@ msgstr "Par défaut"
 #~ "L’extension essayera de déterminer automatiquement les variantes diurnes "
 #~ "et nocturnes de votre thème GNOME Shell.\n"
 #~ "\n"
-#~ "Si le thème que vous utilisez n’est pas pris en charge, merci d’<a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">ouvrir une demande</a>. Vous pouvez aussi sélectionner "
-#~ "manuellement les variantes."
+#~ "Si le thème que vous utilisez n’est pas pris en charge, merci d’<a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">ouvrir une demande</a>. Vous pouvez aussi "
+#~ "sélectionner manuellement les variantes."
 
 #~ msgid "Shortcut"
 #~ msgstr "Raccourci"
@@ -702,8 +700,8 @@ msgstr "Par défaut"
 #~ "L’extension essayera de détecter automatiquement les variantes diurne et "
 #~ "nocturne de votre thème.\n"
 #~ "Si le thème que vous utilisez n’est pas supporté, merci <a href=\"https://"
-#~ "gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/issues"
-#~ "\">d’en faire la requête</a>.\n"
+#~ "gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
+#~ "issues\">d’en faire la requête</a>.\n"
 #~ "Si vous préférez, vous pouvez définir manuellement les variantes."
 
 #~ msgid ""

@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2023-08-17 17:53+0000\n"
 "Last-Translator: Maciej Błędkowski <mble@tuta.io>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/pl/>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,10 +50,6 @@ msgstr "Dzienne tło"
 msgid "Night background"
 msgstr "Nocne tło"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "Wyczyść"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "Polecenia"
@@ -62,60 +58,43 @@ msgstr "Polecenia"
 msgid "Run commands"
 msgstr "Uruchom polecenia"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "Wschód słońca"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"Witaj słońce!\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "Zachód słońca"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"Witaj księżycu!\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "Wesprzyj"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "Przejrzyj kod i zgłoś problemy"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "Wnieś wkład do tłumaczenia"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "Wesprzyj mnie dotacją"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "Harmonogram"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-"Twoja lokalizacja jest używana do obliczenia aktualnych czasów wschodu, jak "
-"i zachodu słońca. Jeśli chcesz, możesz ustawić harmonogram ręcznie. Ręcznie "
-"ustawiony harmonogram, będzie również używany, kiedy lokalizacja nie jest "
-"dostępna."
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "Manualny harmonogram"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "Śkrót klawiaturowy"
 
@@ -127,93 +106,111 @@ msgstr "Wybierz…"
 msgid "Change keyboard shortcut"
 msgstr "Zmień skrót klawiaturowy"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "Wyczyść"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "Naciśnij skrót klawiaturowy…"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "Motywy"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOME posiada wbudowany tryb ciemny, z którego korzysta rozszerzenie. "
-"Manualna zmiana motywów jest odradzana i znajduje się tu z powodów "
-"związanych ze starszymi wersjami."
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "Zmiana motywu GTK"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"Wymuszane ciemnego motywu na aplikacjach nie zaprojektowanych z myślą o jego "
-"obsłudze może mieć niepożądane skutki uboczne takie jak nieczytelny tekst "
-"lub niewidoczne ikony."
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "Wariant dzienny"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "Wariant nocny"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "Zmiana motywu powłoki"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "Zmiana motywu ikon"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "Zmiana motywu kursora"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "Nieznana lokalizacja"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 "Ręcznie ustawiony harmonogram, będzie używany, aby przełączać się między "
 "trybami."
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "Edytuj manualny harmonogram"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "Otwórz ustawienia lokalizacji"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Ten format obrazu nie jest wspierany."
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "Wersja %d"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"Witaj słońce!\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "Domyślny"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"Witaj księżycu!\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "Wesprzyj mnie dotacją"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "Twoja lokalizacja jest używana do obliczenia aktualnych czasów wschodu, "
+#~ "jak i zachodu słońca. Jeśli chcesz, możesz ustawić harmonogram ręcznie. "
+#~ "Ręcznie ustawiony harmonogram, będzie również używany, kiedy lokalizacja "
+#~ "nie jest dostępna."
+
+#~ msgid "Themes"
+#~ msgstr "Motywy"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOME posiada wbudowany tryb ciemny, z którego korzysta rozszerzenie. "
+#~ "Manualna zmiana motywów jest odradzana i znajduje się tu z powodów "
+#~ "związanych ze starszymi wersjami."
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "Zmiana motywu GTK"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "Wymuszane ciemnego motywu na aplikacjach nie zaprojektowanych z myślą o "
+#~ "jego obsłudze może mieć niepożądane skutki uboczne takie jak nieczytelny "
+#~ "tekst lub niewidoczne ikony."
+
+#~ msgid "Day variant"
+#~ msgstr "Wariant dzienny"
+
+#~ msgid "Night variant"
+#~ msgstr "Wariant nocny"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "Zmiana motywu powłoki"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "Zmiana motywu ikon"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "Zmiana motywu kursora"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "Wersja %d"
+
+#~ msgid "Default"
+#~ msgstr "Domyślny"
 
 #~ msgid ""
 #~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."

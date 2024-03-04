@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2022-12-06 06:47+0000\n"
 "Last-Translator: Sean Wang <s921840129@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -45,10 +45,6 @@ msgstr "白天背景"
 msgid "Night background"
 msgstr "夜晚背景"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "清除"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "指令"
@@ -57,58 +53,43 @@ msgstr "指令"
 msgid "Run commands"
 msgstr "執行指令"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "日出"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"陽光你好\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "日落"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"月光你好\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "貢獻"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "檢視程式碼和回報問題"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "為翻譯做出貢獻"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "透過捐款支持我"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "排程"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-"您的位置會被用於計算日出和日落時間。您也可以設置手動排程。無法取得您的位置"
-"時，亦會使用手動排程。"
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "手動排程"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "鍵盤快捷鍵"
 
@@ -120,89 +101,105 @@ msgstr "選擇…"
 msgid "Change keyboard shortcut"
 msgstr "變更鍵盤快捷鍵"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "清除"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "按下您的鍵盤快捷鍵…"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "主題"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"本擴充套件使用 GNOME 內建的深色模式。除非是為了支援舊版應用程式，不然不建議手"
-"動切換主題。"
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "更改 GTK 主題"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"於不支援的應用程式中強制使用深色主題可能產生不良的後果。例如無法閱讀的文字或"
-"看不見的圖示。"
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "白天樣式"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "夜晚樣式"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "切換 Shell 主題"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "切換圖示主題"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "切換游標主題"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "未知位置"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "手動排程將被用於切換深色模式。"
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "編輯手動排程"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "開啟位置設定"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "不支援此圖像格式。"
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "版本 %d"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"陽光你好\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "預設"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"月光你好\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "透過捐款支持我"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "您的位置會被用於計算日出和日落時間。您也可以設置手動排程。無法取得您的位置"
+#~ "時，亦會使用手動排程。"
+
+#~ msgid "Themes"
+#~ msgstr "主題"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "本擴充套件使用 GNOME 內建的深色模式。除非是為了支援舊版應用程式，不然不建"
+#~ "議手動切換主題。"
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "更改 GTK 主題"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "於不支援的應用程式中強制使用深色主題可能產生不良的後果。例如無法閱讀的文字"
+#~ "或看不見的圖示。"
+
+#~ msgid "Day variant"
+#~ msgstr "白天樣式"
+
+#~ msgid "Night variant"
+#~ msgstr "夜晚樣式"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "切換 Shell 主題"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "切換圖示主題"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "切換游標主題"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "版本 %d"
+
+#~ msgid "Default"
+#~ msgstr "預設"
 
 #~ msgid "Settings version"
 #~ msgstr "版本"

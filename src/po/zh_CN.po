@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2022-11-09 14:46+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -46,10 +46,6 @@ msgstr "日间背景"
 msgid "Night background"
 msgstr "夜间背景"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "清空"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "命令"
@@ -58,57 +54,43 @@ msgstr "命令"
 msgid "Run commands"
 msgstr "运行命令"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "日出"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"漱正阳而含朝霞\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "日落"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"有月影 在水面 漂流不定\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "支持本软件"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "查看源代码，报告软件错误"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "帮忙翻译本软件"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "捐款支持我开发本软件"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "安排"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr "每天日出日落的时间会根据您所在的地理位置进行推算，您也可以转而选择手动安排时"
-"间。地理位置未知时，也会按照手动安排的进行。"
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "手动安排"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "键盘快捷键"
 
@@ -120,89 +102,105 @@ msgstr "选择……"
 msgid "Change keyboard shortcut"
 msgstr "更改键盘快捷键"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "清空"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "按下您想设置的键盘快捷键……"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "主题"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOME 有自带的、兼容本扩展程序的深色模式。最好只在旧版不兼容时再手动切换主"
-"题，其他情况下最好不要手动切换。"
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "切换 GTK 的主题"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"对于设计时没有考虑深色主题的软件，非要使用深色主题可能会有“不良反应”，比如"
-"说，文字可能没法读、图标可能看不见。"
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "日间样式"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "夜间模式"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "切换 Shell 的主题"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "切换图标的主题"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "切换指针主题"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "地理位置未知"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "会依照手动安排切换深色模式。"
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "手动进行安排"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "打开地理位置设置"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "这种图像格式不能使用。"
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "%d 版"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"漱正阳而含朝霞\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "默认"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"有月影 在水面 漂流不定\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "捐款支持我开发本软件"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "每天日出日落的时间会根据您所在的地理位置进行推算，您也可以转而选择手动安排"
+#~ "时间。地理位置未知时，也会按照手动安排的进行。"
+
+#~ msgid "Themes"
+#~ msgstr "主题"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOME 有自带的、兼容本扩展程序的深色模式。最好只在旧版不兼容时再手动切换主"
+#~ "题，其他情况下最好不要手动切换。"
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "切换 GTK 的主题"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "对于设计时没有考虑深色主题的软件，非要使用深色主题可能会有“不良反应”，比如"
+#~ "说，文字可能没法读、图标可能看不见。"
+
+#~ msgid "Day variant"
+#~ msgstr "日间样式"
+
+#~ msgid "Night variant"
+#~ msgstr "夜间模式"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "切换 Shell 的主题"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "切换图标的主题"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "切换指针主题"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "%d 版"
+
+#~ msgid "Default"
+#~ msgstr "默认"
 
 #~ msgid ""
 #~ "Only JPEG, PNG, TIFF, SVG and XML files can be set as background image."
@@ -515,9 +513,9 @@ msgstr "默认"
 
 #~ msgid ""
 #~ "You can manually set variants if the extension cannot automatically "
-#~ "detect the day and night variants of your GTK theme. Please <a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">submit a request</a> to get your theme supported."
+#~ "detect the day and night variants of your GTK theme. Please <a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">submit a request</a> to get your theme supported."
 #~ msgstr ""
 #~ "如果本扩展程序没能自动检测到您 GTK 的主题的日间样式和夜间样式的话，您可以"
 #~ "手动设置样式。想让扩展能成功识别您的主题？您可以<a href=\"https://gitlab."
@@ -546,6 +544,6 @@ msgstr "默认"
 #~ "extension/-/issues\">submit a request</a> to get your theme supported."
 #~ msgstr ""
 #~ "如果本扩展程序没能自动检测到您 GNOME Shell 的主题的日间样式和夜间样式的"
-#~ "话，您可以手动设置样式。想让扩展能成功识别您的主题？您可以<a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">提交请求</a>。"
+#~ "话，您可以手动设置样式。想让扩展能成功识别您的主题？您可以<a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">提交请求</a>。"

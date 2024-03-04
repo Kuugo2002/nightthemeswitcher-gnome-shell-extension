@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2023-02-19 18:10+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,10 +46,6 @@ msgstr "Dag bakgrund"
 msgid "Night background"
 msgstr "Natt bakgrund"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "Rensa"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "Kommandon"
@@ -58,59 +54,43 @@ msgstr "Kommandon"
 msgid "Run commands"
 msgstr "Kör kommandon"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "Soluppgång"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"Hallå solstråle!\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "Solnedgång"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"Hallå månstråle!\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "Bidra"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "Visa koden och rapportera problem"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "Bidra till översättningen"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "Stöd mig med en donation"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "Schema"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-"Din plats kommer att användas för att beräkna aktuella tider för soluppgång "
-"och solnedgång. Om du föredrar det kan du ställa in ett manuellt schema. Den "
-"kommer också att användas när din plats inte är tillgänglig."
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "Manuellt schema"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "Tangentbordsgenväg"
 
@@ -122,86 +102,104 @@ msgstr "Välj…"
 msgid "Change keyboard shortcut"
 msgstr "Ändra tangentbordsgenväg"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "Rensa"
+
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
 msgstr "Tryck på din tangentbordsgenväg…"
 
-#: src/data/ui/ThemesPage.ui:9
-msgid "Themes"
-msgstr "Teman"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOME har ett inbyggt mörkt läge som tillägget använder. Att manuellt byta "
-"teman avråds från och är bara här av äldre skäl."
-
-#: src/data/ui/ThemesPage.ui:30
-msgid "Switch GTK theme"
-msgstr "Ändra GTK tema"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"Att tvinga ett mörkt tema på program som inte är utformade för att stödja "
-"det kan få oönskade bieffekter som oläsbar text eller osynliga ikoner."
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "Dag variant"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "Natt variant"
-
-#: src/data/ui/ThemesPage.ui:47
-msgid "Switch Shell theme"
-msgstr "Ändra skal tema"
-
-#: src/data/ui/ThemesPage.ui:63
-msgid "Switch icon theme"
-msgstr "Ändra ikon tema"
-
-#: src/data/ui/ThemesPage.ui:79
-msgid "Switch cursor theme"
-msgstr "Ändra pekar tema"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 msgid "Unknown Location"
 msgstr "Okänd plats"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "Ett manuellt schema kommer att användas för att byta till mörkt läge."
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 msgid "Edit Manual Schedule"
 msgstr "Redigera manuellt schema"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 msgid "Open Location Settings"
 msgstr "Öppna platsinställningar"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Detta bildformat stöds inte."
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr "Version %d"
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"Hallå solstråle!\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "Standard"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"Hallå månstråle!\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "Stöd mig med en donation"
+
+#~ msgid ""
+#~ "Your location will be used to calculate the current sunrise and sunset "
+#~ "times. If you prefer, you can set a manual schedule. It will also be used "
+#~ "when your location is unavailable."
+#~ msgstr ""
+#~ "Din plats kommer att användas för att beräkna aktuella tider för "
+#~ "soluppgång och solnedgång. Om du föredrar det kan du ställa in ett "
+#~ "manuellt schema. Den kommer också att användas när din plats inte är "
+#~ "tillgänglig."
+
+#~ msgid "Themes"
+#~ msgstr "Teman"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOME har ett inbyggt mörkt läge som tillägget använder. Att manuellt "
+#~ "byta teman avråds från och är bara här av äldre skäl."
+
+#~ msgid "Switch GTK theme"
+#~ msgstr "Ändra GTK tema"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "Att tvinga ett mörkt tema på program som inte är utformade för att stödja "
+#~ "det kan få oönskade bieffekter som oläsbar text eller osynliga ikoner."
+
+#~ msgid "Day variant"
+#~ msgstr "Dag variant"
+
+#~ msgid "Night variant"
+#~ msgstr "Natt variant"
+
+#~ msgid "Switch Shell theme"
+#~ msgstr "Ändra skal tema"
+
+#~ msgid "Switch icon theme"
+#~ msgstr "Ändra ikon tema"
+
+#~ msgid "Switch cursor theme"
+#~ msgstr "Ändra pekar tema"
+
+#, javascript-format
+#~ msgid "Version %d"
+#~ msgstr "Version %d"
+
+#~ msgid "Default"
+#~ msgstr "Standard"

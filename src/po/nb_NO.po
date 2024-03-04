@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 43\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-30 14:37+0100\n"
+"POT-Creation-Date: 2024-02-18 15:20+0100\n"
 "PO-Revision-Date: 2022-05-25 22:16+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/night-"
@@ -49,10 +49,6 @@ msgstr "Dag-bakgrunn"
 msgid "Night background"
 msgstr "Natt-bakgrunn"
 
-#: src/data/ui/ClearableEntry.ui:10 src/data/ui/ShortcutButton.ui:43
-msgid "Clear"
-msgstr "Tøm"
-
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
 msgstr "Kommandoer"
@@ -61,56 +57,43 @@ msgstr "Kommandoer"
 msgid "Run commands"
 msgstr "Kjør kommandoer"
 
-#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:27
+#: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
 msgstr "Soloppgang"
 
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:25
-msgid "notify-send \"Hello sunshine!\""
-msgstr "notify-send \"Hei solskinn.\""
-
-#: src/data/ui/CommandsPage.ui:35 src/data/ui/SchedulePage.ui:40
+#: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
 msgstr "Solnedgang"
-
-#. Don't translate the `notify-send` command.
-#: src/data/ui/CommandsPage.ui:39
-msgid "notify-send \"Hello moonshine!\""
-msgstr "notify-send \"Hei måneskinn.\""
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
 msgstr "Bidra"
 
-#: src/data/ui/ContributePage.ui:55
+#: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
 msgstr "Sjekk koden og innrapporter feil"
 
-#: src/data/ui/ContributePage.ui:68
+#: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
 msgstr "Bistå oversettelsen"
-
-#: src/data/ui/ContributePage.ui:81
-msgid "Support me with a donation"
-msgstr "Støtt meg med penger"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
 msgstr "Timeplan"
 
-#: src/data/ui/SchedulePage.ui:13
-msgid ""
-"Your location will be used to calculate the current sunrise and sunset "
-"times. If you prefer, you can set a manual schedule. It will also be used "
-"when your location is unavailable."
-msgstr ""
-
-#: src/data/ui/SchedulePage.ui:16
+#: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
 msgstr "Manuell timeplan"
 
-#: src/data/ui/SchedulePage.ui:57
+#: src/data/ui/SchedulePage.ui:16
+msgid "Use a manual schedule instead of the one computed from your location."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:51
+msgid "Run the transition when an app is fullscreen"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
 msgstr "Tastatursnarvei"
 
@@ -124,106 +107,111 @@ msgstr "Velg…"
 msgid "Change keyboard shortcut"
 msgstr "Tastatursnarvei"
 
+#: src/data/ui/ShortcutButton.ui:43
+msgid "Clear"
+msgstr "Tøm"
+
 #: src/data/ui/ShortcutButton.ui:78
 #, fuzzy
 #| msgid "Press your keyboard shortcut..."
 msgid "Press your keyboard shortcut…"
 msgstr "Trykk din tastatursnarvei …"
 
-#: src/data/ui/ThemesPage.ui:9
-#, fuzzy
-#| msgid "GTK theme"
-msgid "Themes"
-msgstr "GTK-drakt"
-
-#: src/data/ui/ThemesPage.ui:15
-msgid ""
-"GNOME has a built-in dark mode that the extension uses. Manually switching "
-"themes is discouraged and is only here for legacy reasons."
-msgstr ""
-"GNOME har et innebygd mørkt modus som utvidelsen bruker. Manuell bytting "
-"mellom drakter frarådes og er kun her fra gammelt av."
-
-#: src/data/ui/ThemesPage.ui:30
-#, fuzzy
-#| msgid "Switch GTK variants"
-msgid "Switch GTK theme"
-msgstr "Bytt GTK-varianter"
-
-#: src/data/ui/ThemesPage.ui:31
-msgid ""
-"Forcing a dark theme on applications not designed to support it can have "
-"undesirable side-effects such as unreadable text or invisible icons."
-msgstr ""
-"Påtvingning av mørk drakt for programmer som ikke er designet for å støtte "
-"det kan ha uønskede effekter, som ulesbar tekst eller usynlige ikoner."
-
-#: src/data/ui/ThemesPage.ui:35 src/data/ui/ThemesPage.ui:51
-#: src/data/ui/ThemesPage.ui:67 src/data/ui/ThemesPage.ui:83
-msgid "Day variant"
-msgstr "Dag-variant"
-
-#: src/data/ui/ThemesPage.ui:40 src/data/ui/ThemesPage.ui:56
-#: src/data/ui/ThemesPage.ui:72 src/data/ui/ThemesPage.ui:88
-msgid "Night variant"
-msgstr "Natt-variant"
-
-#: src/data/ui/ThemesPage.ui:47
-#, fuzzy
-#| msgid "Switch Shell variants"
-msgid "Switch Shell theme"
-msgstr "Bytt skallvarianter"
-
-#: src/data/ui/ThemesPage.ui:63
-#, fuzzy
-#| msgid "Switch icon variants"
-msgid "Switch icon theme"
-msgstr "Bytt ikonvarianter"
-
-#: src/data/ui/ThemesPage.ui:79
-#, fuzzy
-#| msgid "Night cursor theme"
-msgid "Switch cursor theme"
-msgstr "Natt-pekerdrakt"
-
 #. Time separator (eg. 08:27)
-#: src/data/ui/TimeChooser.ui:23
+#: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
 msgstr ":"
 
-#: src/modules/Timer.js:268
+#: src/data/ui/TimeChooser.ui:52
+msgid "AM"
+msgstr ""
+
+#: src/data/ui/TimeChooser.ui:58
+msgid "PM"
+msgstr ""
+
+#: src/modules/Timer.js:289
 #, fuzzy
 #| msgid "Button location"
 msgid "Unknown Location"
 msgstr "Knappeposisjon"
 
-#: src/modules/Timer.js:269
+#: src/modules/Timer.js:290
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 
-#: src/modules/Timer.js:274
+#: src/modules/Timer.js:295
 #, fuzzy
 #| msgid "Manual schedule"
 msgid "Edit Manual Schedule"
 msgstr "Manuell timeplan"
 
-#: src/modules/Timer.js:278
+#: src/modules/Timer.js:299
 #, fuzzy
 msgid "Open Location Settings"
 msgstr "Ingen innstillinger"
 
-#: src/preferences/BackgroundButton.js:86
+#: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr ""
 
-#: src/preferences/ContributePage.js:16
-#, javascript-format
-msgid "Version %d"
-msgstr ""
+#~ msgid "notify-send \"Hello sunshine!\""
+#~ msgstr "notify-send \"Hei solskinn.\""
 
-#: src/preferences/ThemesPage.js:50
-msgid "Default"
-msgstr "Forvalg"
+#~ msgid "notify-send \"Hello moonshine!\""
+#~ msgstr "notify-send \"Hei måneskinn.\""
+
+#~ msgid "Support me with a donation"
+#~ msgstr "Støtt meg med penger"
+
+#, fuzzy
+#~| msgid "GTK theme"
+#~ msgid "Themes"
+#~ msgstr "GTK-drakt"
+
+#~ msgid ""
+#~ "GNOME has a built-in dark mode that the extension uses. Manually "
+#~ "switching themes is discouraged and is only here for legacy reasons."
+#~ msgstr ""
+#~ "GNOME har et innebygd mørkt modus som utvidelsen bruker. Manuell bytting "
+#~ "mellom drakter frarådes og er kun her fra gammelt av."
+
+#, fuzzy
+#~| msgid "Switch GTK variants"
+#~ msgid "Switch GTK theme"
+#~ msgstr "Bytt GTK-varianter"
+
+#~ msgid ""
+#~ "Forcing a dark theme on applications not designed to support it can have "
+#~ "undesirable side-effects such as unreadable text or invisible icons."
+#~ msgstr ""
+#~ "Påtvingning av mørk drakt for programmer som ikke er designet for å "
+#~ "støtte det kan ha uønskede effekter, som ulesbar tekst eller usynlige "
+#~ "ikoner."
+
+#~ msgid "Day variant"
+#~ msgstr "Dag-variant"
+
+#~ msgid "Night variant"
+#~ msgstr "Natt-variant"
+
+#, fuzzy
+#~| msgid "Switch Shell variants"
+#~ msgid "Switch Shell theme"
+#~ msgstr "Bytt skallvarianter"
+
+#, fuzzy
+#~| msgid "Switch icon variants"
+#~ msgid "Switch icon theme"
+#~ msgstr "Bytt ikonvarianter"
+
+#, fuzzy
+#~| msgid "Night cursor theme"
+#~ msgid "Switch cursor theme"
+#~ msgstr "Natt-pekerdrakt"
+
+#~ msgid "Default"
+#~ msgstr "Forvalg"
 
 #, fuzzy
 #~| msgid "Only JPEG, PNG, TIFF and XML files can be set as background image."
@@ -561,9 +549,9 @@ msgstr "Forvalg"
 
 #~ msgid ""
 #~ "You can manually set variants if the extension cannot automatically "
-#~ "detect the day and night variants of your GTK theme. Please <a href="
-#~ "\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension/-/"
-#~ "issues\">submit a request</a> to get your theme supported."
+#~ "detect the day and night variants of your GTK theme. Please <a "
+#~ "href=\"https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-"
+#~ "extension/-/issues\">submit a request</a> to get your theme supported."
 #~ msgstr ""
 #~ "Du kan manuelt sette varianter hvis tillegget ikke kan oppdage dag- og "
 #~ "natt-varianter av din GTK-drakt automatisk. <a href=\"https://gitlab.com/"
