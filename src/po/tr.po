@@ -7,13 +7,14 @@
 # Veli Tasalı <veli.tasali@gmail.com>, 2021.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2022.
 # Oğuz Ersen <oguz@ersen.moe>, 2022, 2024.
+# Furkan Baytekin <furkanbaytekin@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 43\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-18 15:20+0100\n"
-"PO-Revision-Date: 2024-03-05 17:01+0000\n"
-"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"PO-Revision-Date: 2024-03-07 11:01+0000\n"
+"Last-Translator: Furkan Baytekin <furkanbaytekin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/tr/>\n"
 "Language: tr\n"
@@ -57,7 +58,7 @@ msgstr "Komutlar"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr "Komutlar yürüt"
+msgstr "Komutları yürüt"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
@@ -81,11 +82,11 @@ msgstr "Çevirilere katkıda bulunun"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr "Kur"
+msgstr "Zamanla"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr "Elle kur"
+msgstr "Elle zamanla"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
