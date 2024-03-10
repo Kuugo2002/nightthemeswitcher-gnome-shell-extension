@@ -5,7 +5,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Night Theme Switcher
 
-![](./res/screenshot.gif)
+![](./res/screenshot.png)
 
 Automatically toggle your desktop’s color scheme between light and dark, switch backgrounds and run custom commands at sunset and sunrise.
 
