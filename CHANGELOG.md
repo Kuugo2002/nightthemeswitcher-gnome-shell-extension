@@ -6,6 +6,32 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [76] - 2024-03-10
+
+This version adds support for GNOME 46 and removes support for GNOME 45. It also adds hidden settings to set the color scheme used at day and night. It removes legacy GTK theme, Shell theme, icon theme and cursor switching.
+
+### Added
+
+- GNOME 46 support
+- Day and night color scheme hidden setting
+- Disable transition when an app is fullscreen setting
+- Hindi translation by @Scrambled777
+
+### Removed
+
+- GNOME 45 support
+- GTK theme, Shell theme, icon theme and cursor switching
+
+### Changed
+
+- Updated Czech translation by @wolf-wolf
+- Updated Dutch translation by @philip.goto
+- Updated French translation
+- Updated Italian translation by @phaerrax
+- Updated Polish translation by @gnu-ewm
+- Updated Turkish translation by @ersen and @Elagoht
+
+
 ## [75] - 2023-08-20
 
 This version adds support for GNOME 45 and removes support for GNOME 44.
