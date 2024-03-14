@@ -4,23 +4,23 @@
 # Omar TS <omats@vivaldi.net>, 2021.
 # Omar TS <omats@criptext.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
-# Omar TS <ots@duck.com>, 2022.
+# Omar TS <ots@duck.com>, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-18 15:20+0100\n"
-"PO-Revision-Date: 2022-12-26 17:23+0000\n"
+"PO-Revision-Date: 2024-03-16 00:02+0000\n"
 "Last-Translator: Omar TS <ots@duck.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -88,11 +88,11 @@ msgstr "الجدولة اليدوية"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr ""
+msgstr "استخدم جدولًا يدويًا بدلاً من الجدول المحسوب من موقعك."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "شغّل النقل عندما يكون التطبيق في وضع ملء الشاشة"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -121,11 +121,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "صباحا"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "مساءً"
 
 #: src/modules/Timer.js:289
 msgid "Unknown Location"
