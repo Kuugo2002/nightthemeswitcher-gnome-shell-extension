@@ -4,13 +4,14 @@
 # poi <erbaotao@outlook.com>, 2022.
 # Dingzhong Chen <wsxy162@gmail.com>, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
+# 0xarch <alanqa-ops@outlook.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-18 15:20+0100\n"
-"PO-Revision-Date: 2022-11-09 14:46+0000\n"
-"Last-Translator: poi <erbaotao@outlook.com>\n"
+"PO-Revision-Date: 2024-03-19 04:01+0000\n"
+"Last-Translator: 0xarch <alanqa-ops@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -84,11 +85,11 @@ msgstr "手动安排"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr ""
+msgstr "使用手动设置的时间代替从位置计算的时间。"
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "当有程序全屏时也进行过渡"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -117,11 +118,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "上午"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 #: src/modules/Timer.js:289
 msgid "Unknown Location"
