@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,20 +120,16 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr ""
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
 msgstr ""
 
 #: src/preferences/BackgroundButton.js:94
