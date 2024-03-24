@@ -23,7 +23,7 @@ export default class NightThemeSwitcher extends Extension {
         const timer = new Timer({
             settings: this.getSettings(`${this.metadata['settings-schema']}.time`),
             colorSchemeSettings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`),
-            openPrefs: this.openPrefs,
+            openPreferences: this.openPreferences,
         });
         this.#modules.push(timer);
 

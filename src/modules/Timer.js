@@ -32,7 +32,7 @@ export class Timer extends GObject.Object {
     #colorSchemeSettings;
     #interfaceSettings;
     #locationSettings;
-    #openPrefs;
+    #openPreferences;
     #time;
 
     #cancellable = null;
@@ -57,15 +57,15 @@ export class Timer extends GObject.Object {
      * @param {object} params Params object.
      * @param {Gio.Settings} params.settings Timer settings.
      * @param {Gio.Settings} params.colorSchemeSettings Color Scheme settings.
-     * @param {Function} params.openPrefs Function opening the extension preferences.
+     * @param {Function} params.openPreferences Function opening the extension preferences.
      */
-    constructor({ settings, colorSchemeSettings, openPrefs }) {
+    constructor({ settings, colorSchemeSettings, openPreferences }) {
         super();
         this.#settings = settings;
         this.#colorSchemeSettings = colorSchemeSettings;
         this.#interfaceSettings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
         this.#locationSettings = new Gio.Settings({ schema: 'org.gnome.system.location' });
-        this.#openPrefs = openPrefs;
+        this.#openPreferences = openPreferences;
     }
 
     enable() {
@@ -281,26 +281,25 @@ export class Timer extends GObject.Object {
             } else {
                 console.error(`[${NTSMetadata.name}] Unable to retrieve the location, using the manual schedule times instead.\n${e}`);
 
-                const source = new MessageTray.Source(NTSMetadata.name, 'dialog-information-symbolic');
+                const source = new MessageTray.Source({
+                    title: NTSMetadata.name,
+                    icon: Gio.icon_new_for_string(GLib.build_filenamev([NTSMetadata.path, 'icons', 'nightthemeswitcher-symbolic.svg'])),
+                });
                 messageTray.add(source);
 
                 const notification = new MessageTray.Notification(
-                    source,
-                    _('Unknown Location'),
-                    _('A manual schedule will be used to switch the dark mode.'),
                     {
-                        gicon: Gio.icon_new_for_string(GLib.build_filenamev([NTSMetadata.path, 'icons', 'nightthemeswitcher-symbolic.svg'])),
+                        source,
+                        title: _('Unknown Location'),
+                        body: _('A manual schedule will be used to switch the dark mode.'),
+                        'icon-name': 'location-services-disabled-symbolic',
                     }
                 );
-                notification.addAction(_('Edit Manual Schedule'), () => this.#openPrefs());
+                notification.addAction(_('Edit Manual Schedule'), () => this.#openPreferences());
 
-                const locationSettingsApp = Shell.AppSystem.get_default().lookup_app('gnome-location-panel.desktop');
-                if (locationSettingsApp)
-                    notification.addAction(_('Open Location Settings'), () => locationSettingsApp.activate());
+                notification.connect('activated', () => this.#openPreferences());
 
-                notification.connect('activated', () => this.#openPrefs());
-
-                source.showNotification(notification);
+                source.addNotification(notification);
 
                 this.#settings.set_boolean('manual-schedule', true);
             }
