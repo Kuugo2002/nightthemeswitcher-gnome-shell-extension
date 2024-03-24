@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2024-03-19 04:01+0000\n"
 "Last-Translator: 0xarch <alanqa-ops@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -124,25 +124,24 @@ msgstr "上午"
 msgid "PM"
 msgstr "下午"
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "地理位置未知"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "会依照手动安排切换深色模式。"
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "手动进行安排"
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "打开地理位置设置"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "这种图像格式不能使用。"
+
+#~ msgid "Open Location Settings"
+#~ msgstr "打开地理位置设置"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"漱正阳而含朝霞\""

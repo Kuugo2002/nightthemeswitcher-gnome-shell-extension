@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2021-08-29 10:33+0000\n"
 "Last-Translator: Fran Diéguez <fran.dieguez@mabishu.com>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/night-theme-"
@@ -123,31 +123,30 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 #, fuzzy
 #| msgid "Button location"
 msgid "Unknown Location"
 msgstr "Ubicación do botón"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 #, fuzzy
 #| msgid "Manual schedule"
 msgid "Edit Manual Schedule"
 msgstr "Horario manual"
 
-#: src/modules/Timer.js:299
-#, fuzzy
-#| msgid "Location Services"
-msgid "Open Location Settings"
-msgstr "Servizos de localización"
-
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Location Services"
+#~ msgid "Open Location Settings"
+#~ msgstr "Servizos de localización"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"¡Bos días!\""

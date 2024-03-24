@@ -7,12 +7,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2024-03-24 06:01+0000\n"
 "Last-Translator: citrus flavor <citrusflavor@users.noreply.hosted.weblate."
 "org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -86,7 +86,8 @@ msgstr "スケジュールの手動設定"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr "位置情報を基に計算されたスケジュールの代替として手動設定を使用してください。"
+msgstr ""
+"位置情報を基に計算されたスケジュールの代替として手動設定を使用してください。"
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
@@ -125,25 +126,24 @@ msgstr "午前"
 msgid "PM"
 msgstr "午後"
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "現在位置が不明です"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "手動設定されたスケジュールを使用してダークモードを切り替えます。"
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "スケジュールの変更"
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "位置情報の設定を開く"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "この画像形式は利用できません。"
+
+#~ msgid "Open Location Settings"
+#~ msgstr "位置情報の設定を開く"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"こんにちは、日光さん!\""

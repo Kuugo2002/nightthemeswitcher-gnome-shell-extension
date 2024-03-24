@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 45\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2023-01-06 13:50+0000\n"
 "Last-Translator: Oleg Lavrovsky <ol@utou.ch>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/night-theme-"
@@ -130,25 +130,24 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "Unbekannte Position"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "Der Dunkelmodus wird nach einem manuellen Zeitplan umgeschaltet."
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "Manueller Zeitplan bearbeiten"
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "Ortseinstellungen"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Dieses Bildformat wird nicht unterstützt."
+
+#~ msgid "Open Location Settings"
+#~ msgstr "Ortseinstellungen"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"Hallo Sonnenschein!\""

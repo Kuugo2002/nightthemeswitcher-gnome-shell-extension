@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2024-03-16 00:02+0000\n"
 "Last-Translator: Omar TS <ots@duck.com>\n"
-"Language-Team: Arabic <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/ar/>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,25 +127,24 @@ msgstr "صباحا"
 msgid "PM"
 msgstr "مساءً"
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "موقع غير معروف"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "سيتم استخدام جدول يدوي لتبديل الوضع المظلم."
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "تعديل الجدولة اليدوية"
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "افتح إعدادات الموقع"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "تنسيق الصورة هذا غير مدعوم."
+
+#~ msgid "Open Location Settings"
+#~ msgstr "افتح إعدادات الموقع"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "أخطر وأرسل \"أهلا بشروق الشمس!\""

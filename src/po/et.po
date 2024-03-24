@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2023-02-19 12:38+0000\n"
 "Last-Translator: Henri <contact@hen.ee>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/night-theme-"
@@ -121,25 +121,24 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "Tundmatu asukoht"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr ""
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "Ava asukohasätted"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Seda pildiformaati ei toetata."
+
+#~ msgid "Open Location Settings"
+#~ msgstr "Ava asukohasätted"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"Tere päike!\""

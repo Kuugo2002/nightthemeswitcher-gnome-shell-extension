@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 43\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2022-05-25 22:16+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/night-"
@@ -130,30 +130,29 @@ msgstr ""
 msgid "PM"
 msgstr ""
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 #, fuzzy
 #| msgid "Button location"
 msgid "Unknown Location"
 msgstr "Knappeposisjon"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 #, fuzzy
 #| msgid "Manual schedule"
 msgid "Edit Manual Schedule"
 msgstr "Manuell timeplan"
 
-#: src/modules/Timer.js:299
-#, fuzzy
-msgid "Open Location Settings"
-msgstr "Ingen innstillinger"
-
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Open Location Settings"
+#~ msgstr "Ingen innstillinger"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"Hei solskinn.\""

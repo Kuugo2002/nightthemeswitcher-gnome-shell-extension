@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-18 15:20+0100\n"
+"POT-Creation-Date: 2024-03-24 11:18+0100\n"
 "PO-Revision-Date: 2024-03-20 05:01+0000\n"
 "Last-Translator: bittin1ddc447d824349b2 <bittin@reimu.nl>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/sv/>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -125,25 +125,24 @@ msgstr "AM"
 msgid "PM"
 msgstr "PM"
 
-#: src/modules/Timer.js:289
+#: src/modules/Timer.js:285
 msgid "Unknown Location"
 msgstr "Okänd plats"
 
-#: src/modules/Timer.js:290
+#: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr "Ett manuellt schema kommer att användas för att byta till mörkt läge."
 
-#: src/modules/Timer.js:295
+#: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "Redigera manuellt schema"
-
-#: src/modules/Timer.js:299
-msgid "Open Location Settings"
-msgstr "Öppna platsinställningar"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
 msgstr "Detta bildformat stöds inte."
+
+#~ msgid "Open Location Settings"
+#~ msgstr "Öppna platsinställningar"
 
 #~ msgid "notify-send \"Hello sunshine!\""
 #~ msgstr "notify-send \"Hallå solstråle!\""
