@@ -6,6 +6,22 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [77] - 2024-03-10
+
+### Changed
+
+- Updated Arabic translation by Omar TS
+- Updated Chinese (Simplified) translation by @alanqa-ops
+- Updated French translation
+- Updated Japanese translation by citrus flavor
+- Updated Spanish translation by gallegonovato
+- Updated Swedish translation by @bittin
+
+### Fixed
+
+- Unknown Location notification was not working
+
+
 ## [76] - 2024-03-10
 
 This version adds support for GNOME 46 and removes support for GNOME 45. It also adds hidden settings to set the color scheme used at day and night. It removes legacy GTK theme, Shell theme, icon theme and cursor switching.
