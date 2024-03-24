@@ -9,6 +9,6 @@ rules:
       argsIgnorePattern: ^(unused|_)
   object-curly-spacing: off
 globals:
-  NTSMetadata: writable
+  NTS: writable
 parserOptions:
   sourceType: module

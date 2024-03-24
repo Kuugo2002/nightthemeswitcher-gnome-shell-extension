@@ -16,20 +16,16 @@ export default class NightThemeSwitcher extends Extension {
     #modules = [];
 
     enable() {
-        globalThis.NTSMetadata = this.metadata;
+        globalThis.NTS = this;
 
         debug.message('Enabling extension...');
 
-        const timer = new Timer({
-            settings: this.getSettings(`${this.metadata['settings-schema']}.time`),
-            colorSchemeSettings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`),
-            openPreferences: this.openPreferences,
-        });
-        this.#modules.push(timer);
+        const timer = new Timer();
 
         [
-            new ColorSchemeSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.color-scheme`) }),
-            new CommandsSwitcher({ timer, settings: this.getSettings(`${this.metadata['settings-schema']}.commands`) }),
+            timer,
+            new ColorSchemeSwitcher({ timer }),
+            new CommandsSwitcher({ timer }),
         ].forEach(module => this.#modules.push(module));
 
         this.#modules.forEach(module => module.enable());
@@ -48,6 +44,6 @@ export default class NightThemeSwitcher extends Extension {
 
         debug.message('Extension disabled.');
 
-        delete globalThis.NTSMetadata;
+        delete globalThis.NTS;
     }
 }

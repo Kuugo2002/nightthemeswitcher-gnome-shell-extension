@@ -32,7 +32,6 @@ export class Timer extends GObject.Object {
     #colorSchemeSettings;
     #interfaceSettings;
     #locationSettings;
-    #openPreferences;
     #time;
 
     #cancellable = null;
@@ -53,19 +52,12 @@ export class Timer extends GObject.Object {
         }, this);
     }
 
-    /**
-     * @param {object} params Params object.
-     * @param {Gio.Settings} params.settings Timer settings.
-     * @param {Gio.Settings} params.colorSchemeSettings Color Scheme settings.
-     * @param {Function} params.openPreferences Function opening the extension preferences.
-     */
-    constructor({ settings, colorSchemeSettings, openPreferences }) {
+    constructor() {
         super();
-        this.#settings = settings;
-        this.#colorSchemeSettings = colorSchemeSettings;
+        this.#settings = NTS.getSettings(`${NTS.metadata['settings-schema']}.time`);
+        this.#colorSchemeSettings = NTS.getSettings(`${NTS.metadata['settings-schema']}.color-scheme`);
         this.#interfaceSettings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
         this.#locationSettings = new Gio.Settings({ schema: 'org.gnome.system.location' });
-        this.#openPreferences = openPreferences;
     }
 
     enable() {
@@ -276,14 +268,14 @@ export class Timer extends GObject.Object {
         } catch (e) {
             const [latitude, longitude] = this.#settings.get_value('location').deepUnpack();
             if (latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180) {
-                console.error(`[${NTSMetadata.name}] Unable to retrieve the location, using the last known location instead.\n${e}`);
+                console.error(`[${NTS.metadata.name}] Unable to retrieve the location, using the last known location instead.\n${e}`);
                 this.#updateSuntimes();
             } else {
-                console.error(`[${NTSMetadata.name}] Unable to retrieve the location, using the manual schedule times instead.\n${e}`);
+                console.error(`[${NTS.metadata.name}] Unable to retrieve the location, using the manual schedule times instead.\n${e}`);
 
                 const source = new MessageTray.Source({
-                    title: NTSMetadata.name,
-                    icon: Gio.icon_new_for_string(GLib.build_filenamev([NTSMetadata.path, 'icons', 'nightthemeswitcher-symbolic.svg'])),
+                    title: NTS.metadata.name,
+                    icon: Gio.icon_new_for_string(GLib.build_filenamev([NTS.metadata.path, 'icons', 'nightthemeswitcher-symbolic.svg'])),
                 });
                 messageTray.add(source);
 
@@ -295,9 +287,9 @@ export class Timer extends GObject.Object {
                         'icon-name': 'location-services-disabled-symbolic',
                     }
                 );
-                notification.addAction(_('Edit Manual Schedule'), () => this.#openPreferences());
+                notification.addAction(_('Edit Manual Schedule'), () => NTS.openPreferences());
 
-                notification.connect('activated', () => this.#openPreferences());
+                notification.connect('activated', () => NTS.openPreferences());
 
                 source.addNotification(notification);
 

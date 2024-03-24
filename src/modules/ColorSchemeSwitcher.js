@@ -19,7 +19,12 @@ export class ColorSchemeSwitcher extends Switcher {
 
     #settingsConnections = [];
 
-    constructor({ timer, settings }) {
+    /**
+     * @param {object} params Params object.
+     * @param {Timer} params.timer Timer to listen to.
+     */
+    constructor({ timer }) {
+        const settings = NTS.getSettings(`${NTS.metadata['settings-schema']}.color-scheme`);
         super({
             name: 'Color Scheme',
             timer,

@@ -19,9 +19,9 @@ export class CommandsSwitcher extends Switcher {
     /**
      * @param {object} params Params object.
      * @param {Timer} params.timer Timer to listen to.
-     * @param {Gio.Settings} params.settings Commands settings.
      */
-    constructor({ timer, settings }) {
+    constructor({ timer }) {
+        const settings = NTS.getSettings(`${NTS.metadata['settings-schema']}.commands`);
         super({
             name: 'Command',
             timer,

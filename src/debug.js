@@ -7,6 +7,6 @@
  * @param {string} msg Message to print.
  */
 export function message(msg) {
-    if (NTSMetadata['build-type'] === 'debug')
-        console.log(`[${NTSMetadata.name}] ${msg}`);
+    if (NTS.metadata['build-type'] === 'debug')
+        console.log(`[${NTS.metadata.name}] ${msg}`);
 }
