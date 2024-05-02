@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the Night Theme Switcher package.
 # Gustavo Freitas <gustavo.freitas.justino@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
+# Fernando Lopes <118869201+plasmus777@users.noreply.github.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2022-04-27 09:16+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2024-05-02 22:07+0000\n"
+"Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
+"com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 5.5.3-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -36,6 +38,8 @@ msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"A troca de plano de fundo é feita pelo Shell; essas configurações permitem "
+"alterar as imagens que ele usa."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
@@ -84,10 +88,11 @@ msgstr "Cronograma manual"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Use um cronograma manual em vez daquele calculado a partir do seu local."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Execute a transição quando um aplicativo estiver em tela cheia"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -116,31 +121,27 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "Antes do meio-dia"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "Após o meio-dia"
 
 #: src/modules/Timer.js:285
-#, fuzzy
-#| msgid "Button location"
 msgid "Unknown Location"
-msgstr "Localização do botão"
+msgstr "Localização Desconhecida"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "Um cronograma manual será usado para alternar o modo escuro."
 
 #: src/modules/Timer.js:290
-#, fuzzy
-#| msgid "Manual schedule"
 msgid "Edit Manual Schedule"
-msgstr "Cronograma manual"
+msgstr "Editar Cronograma Manual"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "Este formato de imagem não é suportado."
 
 #, fuzzy
 #~| msgid "Extension Settings"
