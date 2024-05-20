@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the Night Theme Switcher package.
 # poi <erbaotao@outlook.com>, 2022, 2024.
 # Dingzhong Chen <wsxy162@gmail.com>, 2022.
-# Romain Vigier <romain@romainvigier.fr>, 2022.
+# Romain Vigier <romain@romainvigier.fr>, 2022, 2024.
 # 0xarch <alanqa-ops@outlook.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2024-05-08 20:05+0000\n"
-"Last-Translator: poi <erbaotao@outlook.com>\n"
+"PO-Revision-Date: 2024-05-20 09:29+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -73,7 +73,7 @@ msgstr "查看源代码，报告软件错误"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr "帮忙翻译本软件 <by: me-qr.com/entry/vcard/Wr2h6tBO>"
+msgstr "帮忙翻译本软件"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
