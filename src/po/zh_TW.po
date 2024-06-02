@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
 # OliverTzeng <olivertzengolivertzeng@gmail.com>, 2022.
 # Sean Wang <s921840129@gmail.com>, 2022.
+# hugoalh <hugoalh@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2022-12-06 06:47+0000\n"
-"Last-Translator: Sean Wang <s921840129@gmail.com>\n"
+"PO-Revision-Date: 2024-06-03 15:09+0000\n"
+"Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -39,11 +40,11 @@ msgstr "背景切換是由 Shell 負責處理的，這些設定允許您變更�
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr "白天背景"
+msgstr "日間背景"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr "夜晚背景"
+msgstr "夜間背景"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
@@ -67,7 +68,7 @@ msgstr "貢獻"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr "檢視程式碼和回報問題"
+msgstr "檢視程式碼和報告問題"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
@@ -83,11 +84,11 @@ msgstr "手動排程"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr ""
+msgstr "使用手動排程而不是根據你所在位置計算的時間。"
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "當某個應用程式全螢幕時也進行轉換"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -116,11 +117,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "上午"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "下午"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
@@ -136,7 +137,7 @@ msgstr "編輯手動排程"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr "不支援此圖像格式。"
+msgstr "不支援此圖片格式。"
 
 #~ msgid "Open Location Settings"
 #~ msgstr "開啟位置設定"
