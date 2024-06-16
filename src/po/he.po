@@ -7,129 +7,135 @@ msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-06-17 13:32+0000\n"
+"Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
+"Language-Team: Hebrew <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "שינוי רקע"
 
 #: src/data/ui/BackgroundButton.ui:24
 msgid "Select your background image"
-msgstr ""
+msgstr "נא לבחור את תמונת הרקע"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "רקעים"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"החלפת הרקעים מתבצעת על ידי המעטפת, הגדרות אלו מאפשרות לך לבחור באילו רקעים "
+"המעטפת תשתמש."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "הרקע שיוצג בשעות היום"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "הרקע שיוצג בשעות הלילה"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "פקודות"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "הרצת פקודות"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
-msgstr ""
+msgstr "זריחה"
 
 #: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
-msgstr ""
+msgstr "שקיעה"
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "התנדבות"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr ""
+msgstr "עיון בקוד ודיווח על בעיות"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "השתתפות בתרגום"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "תזמון"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr ""
+msgstr "תזמון ידני"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr ""
+msgstr "שימוש בתזמון ידני במקום התזמון המחושב לפי מיקומך."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "ביצוע המעבר כאשר יישום מוצג במסך מלא"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "קיצור מקשים"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "בחירה…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "שינוי קיצור המקשים"
 
 #: src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "ניקוי"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "נא ללחוץ על קיצור המקשים שלך…"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
-msgstr ""
+msgstr "‎:"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "לפנה״צ"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "אחה״צ"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr ""
+msgstr "מיקום לא ידוע"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "תזמון ידני ישמש למעבר למצב הכהה."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "עריכת התזמון הידני"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "פורמט תמונה זה אינו נתמך."
