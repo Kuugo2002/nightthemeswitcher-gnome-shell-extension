@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the Night Theme Switcher package.
 # Balázs Úr <balazs@urbalazs.hu>, 2021.
 # Péter Báthory <bathory86p@gmail.com>, 2022.
+# "Benedek Vigh (冯白诺)" <benedek.vigh@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2022-05-04 08:11+0000\n"
-"Last-Translator: Péter Báthory <bathory86p@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/hu/>\n"
+"PO-Revision-Date: 2024-08-01 10:09+0000\n"
+"Last-Translator: \"Benedek Vigh (冯白诺)\" <benedek.vigh@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -36,6 +37,8 @@ msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"A háttérkép megváltoztatását a Shell végzi, itt kiválaszthatod, hogy melyik "
+"képeket használja."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
@@ -83,11 +86,12 @@ msgstr "Kézi ütemezés"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
-msgstr ""
+msgstr "Manuálisan beállított időpontok használata a földrajzi helyzet helyett."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
 msgstr ""
+"A változtatás futtatása mikor egy alkalmazás teljes képernyős módban van"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -116,31 +120,28 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: src/modules/Timer.js:285
-#, fuzzy
-#| msgid "Button location"
 msgid "Unknown Location"
-msgstr "Gomb helye"
+msgstr "Ismeretlen Hely"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
 msgstr ""
+"Manuálisan megadott időpontok lesznek használva a sötét mód bekapcsolásához."
 
 #: src/modules/Timer.js:290
-#, fuzzy
-#| msgid "Manual schedule"
 msgid "Edit Manual Schedule"
-msgstr "Kézi ütemezés"
+msgstr "Manuális Módosítás"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "A képformátum nem támogatott."
 
 #, fuzzy
 #~| msgid "Extension Settings"
