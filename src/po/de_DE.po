@@ -9,21 +9,22 @@
 # eladyn <eladyn@protonmail.com>, 2022.
 # sal0max <msal.coding@gmail.com>, 2022.
 # Oleg Lavrovsky <ol@utou.ch>, 2023.
+# Amr Ibrahim <amribrahim1987@hotmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 45\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2023-01-06 13:50+0000\n"
-"Last-Translator: Oleg Lavrovsky <ol@utou.ch>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/de/>\n"
+"PO-Revision-Date: 2024-08-12 02:06+0000\n"
+"Last-Translator: Amr Ibrahim <amribrahim1987@hotmail.com>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -42,8 +43,8 @@ msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
-"Die Shell handhabt das Wechseln der Hintergründe. Hier kannst du die Bilder "
-"dafür auswählen."
+"Das Umschalten des Hintergrunds wird von der Shell übernommen, mit diesen "
+"Einstellungen können Sie die verwendeten Bilder ändern."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
@@ -92,10 +93,12 @@ msgstr "Manueller Zeitplan"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Verwenden Sie einen manuellen Zeitplan anstelle des von Ihrem Standort aus "
+"berechneten Zeitplans."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Den Übergang ausführen, wenn eine Anwendung im Vollbildmodus ist"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -103,7 +106,7 @@ msgstr "Tastaturkürzel"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr "Auswählen…"
+msgstr "Auswählen …"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
@@ -115,7 +118,7 @@ msgstr "Löschen"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr "Drücken Sie den Tastaturkürzel…"
+msgstr "Drücken Sie das Tastaturkürzel …"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
@@ -124,23 +127,23 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "vormittags"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "zwischen Mittag und Mitternacht"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr "Unbekannte Position"
+msgstr "Unbekannter Standort"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr "Der Dunkelmodus wird nach einem manuellen Zeitplan umgeschaltet."
+msgstr "Ein manueller Zeitplan wird verwendet, um den Dunkelmodus umzuschalten."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr "Manueller Zeitplan bearbeiten"
+msgstr "Manuellen Zeitplan bearbeiten"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
