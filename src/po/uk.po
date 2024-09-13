@@ -2,134 +2,143 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
 # sensei1304fcc0f2a8360f4ddc <sensei1304@gmail.com>, 2023.
+# Михайло Гончаров <honcharov.mykhaylo@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-09-14 07:09+0000\n"
+"Last-Translator: Михайло Гончаров <honcharov.mykhaylo@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.8-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "Змінити тло"
 
 #: src/data/ui/BackgroundButton.ui:24
 msgid "Select your background image"
-msgstr ""
+msgstr "Оберіть фонове зображення"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "Фонові зображення"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"Перемикання фону обробляється Оболонкою, ці налаштування дозволять вам "
+"змінити зображення, які вона використовує."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "Денний фон"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "Нічний фон"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "Команди"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "Команди для запуску"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
-msgstr ""
+msgstr "Схід сонця"
 
 #: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
-msgstr ""
+msgstr "Захід сонця"
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "Зробити внесок"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr ""
+msgstr "Переглянути код та повідомити про проблему"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "Зробити внесок до перекладу"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "Розклад"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr ""
+msgstr "Ручний розклад"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Використовувати ручний розклад замість розкладу, обчисленого на основі "
+"вашого місцезнаходження."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Запускати перехід коли застосунок у повноекранному режимі"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Комбінація клавіш"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "Обрати…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "Змінити комбінації клавіш"
 
 #: src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "Очистити"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "Натисність вашу комбінації клавіш…"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr ""
+msgstr "Невідоме місцезнаходження"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "Для перемикання у темний режим буде використовуватися ручний розклад."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "Змінити Ручний Розклад"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "Формат даного зображення не підтримується."
