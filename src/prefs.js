@@ -3,7 +3,6 @@
 
 'use strict';
 
-import Adw from 'gi://Adw';
 import Gdk from 'gi://Gdk';
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
@@ -32,10 +31,6 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         window.search_enabled = true;
         window.set_default_size(500, 630);
 
-        // Add a dummy page until the dynamics imports are done
-        const dummyPage = new Adw.PreferencesPage();
-        window.add(dummyPage);
-
         // Dynamically import all classes
         const { BackgroundButton } = await import('./preferences/BackgroundButton.js');
         const { BackgroundsPage } = await import('./preferences/BackgroundsPage.js');
@@ -53,9 +48,6 @@ export default class NightThemeSwitcherPreferences extends ExtensionPreferences 
         GObject.type_ensure(SchedulePage);
         GObject.type_ensure(ShortcutButton);
         GObject.type_ensure(TimeChooser);
-
-        // Remove the dummy page
-        window.remove(dummyPage);
 
         // Add all pages
         [
