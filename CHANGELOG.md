@@ -6,6 +6,32 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [78] - 2024-09-18
+
+This version adds support for GNOME 47 and removes support for GNOME 45.
+
+### Added
+
+- GNOME 47 support
+- Hebrew translation by @omeritzics
+
+### Changed
+
+- Updated Bulgarian translation by @iliqiliev
+- Updated Chinese (Traditional) translation by hugoalh
+- Updated German translation by @Amr-Ibra
+- Updated Hindi translation by @Scrambled777
+- Updated Hungarian translation by @fengbainuo
+- Updated Occitan translation by @honcharov.mykhaylo
+- Updated Polish translation by @strebski
+- Updated Portuguese (Brazil) translation by Fernando Lopes
+- Updated Ukrainian translation by @honcharov.mykhaylo
+
+### Removed
+
+- GNOME 46 support
+
+
 ## [77] - 2024-03-10
 
 ### Changed
