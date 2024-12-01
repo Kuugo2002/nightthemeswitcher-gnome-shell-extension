@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2024-12-01 00:42+0000\n"
+"PO-Revision-Date: 2024-12-02 01:00+0000\n"
 "Last-Translator: Jozef Gaal <preklady@mayday.sk>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/sk/>\n"
@@ -85,7 +85,7 @@ msgstr "Manuálny harmonogram"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
-"Namiesto harmonogramu vypočítaného z vašej polohy použite manuálny "
+"Namiesto harmonogramu vypočítaného z vašej polohy sa použije manuálny "
 "harmonogram."
 
 #: src/data/ui/SchedulePage.ui:51
