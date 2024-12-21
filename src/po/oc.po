@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Night Theme Switcher package.
-# Quentin PAGÈS <quentinantonin@free.fr>, 2022.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2022, 2024.
 # Михайло Гончаров <honcharov.mykhaylo@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2024-09-14 07:09+0000\n"
-"Last-Translator: Михайло Гончаров <honcharov.mykhaylo@gmail.com>\n"
+"PO-Revision-Date: 2024-12-22 13:00+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/oc/>\n"
 "Language: oc\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -86,10 +86,11 @@ msgstr "Orari manual"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Utilizar un orari manual a la plaça del calcul a partir de la localizacion."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Lançar la transicion quand l'aplicacion es en ecran complèt"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -118,11 +119,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
