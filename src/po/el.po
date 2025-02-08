@@ -2,140 +2,145 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
 # Nikolas Tsilivis <nikolas.tsilivis@evooq.ch>, 2022.
+# geonetor <geonetor@yahoo.gr>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2022-08-13 10:20+0000\n"
-"Last-Translator: Nikolas Tsilivis <nikolas.tsilivis@evooq.ch>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/el/>\n"
+"PO-Revision-Date: 2025-02-09 04:33+0000\n"
+"Last-Translator: geonetor <geonetor@yahoo.gr>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "Αλλαγή παρασκηνίου"
 
 #: src/data/ui/BackgroundButton.ui:24
 msgid "Select your background image"
-msgstr ""
+msgstr "Επιλέξτε την εικόνα παρασκηνίου σας"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "Παρασκήνια"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"Η εναλλαγή παρασκηνίου αντιμετωπίζεται από το κέλυφος, αυτές οι ρυθμίσεις "
+"σας επιτρέπουν να αλλάξετε τις εικόνες που χρησιμοποιεί."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "Ιστορικό ημέρας"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "Νυχτερινό παρασκήνιο"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "Εντολές"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "Εκτέλεση εντολών"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
-msgstr ""
+msgstr "Ανατολή"
 
 #: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
-msgstr ""
+msgstr "Ηλιοβασίλεμα"
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "Συνεισφορά"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr ""
+msgstr "Προβολή προβλημάτων κώδικα και αναφοράς"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "Συνεισφέρετε στη μετάφραση"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "Πρόγραμμα"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr ""
+msgstr "Χειροκίνητο πρόγραμμα"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Χρησιμοποιήστε ένα μη αυτόματο χρονοδιάγραμμα αντί για αυτό που υπολογίζεται "
+"από την τοποθεσία σας."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Εκτέλεση της μετάβασης όταν μια εφαρμογή βρίσκεται σε πλήρη οθόνη"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Συντόμευση πληκτρολογίου"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "Επιλογή…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "Αλλαγή συντόμευσης πληκτρολογίου"
 
 #: src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "Εκκαθάριση"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "Πατήστε τη συντόμευση πληκτρολογίου…"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "πμ"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "μμ"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr ""
+msgstr "Άγνωστη τοποθεσία"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "Θα ορισθεί μη αυτόματη εναλλαγή της σκοτεινής λειτουργίας."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "Επεξεργασία μη αυτόματης εναλλαγής"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "Αυτή η μορφή εικόνας δεν υποστηρίζεται."
 
 #~ msgid "Switch GTK theme"
 #~ msgstr "Αλλαγή θέματος GTK"
