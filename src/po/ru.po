@@ -5,22 +5,23 @@
 # Daudix UFO <ddaudix@gmail.com>, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
 # AHOHNMYC <lqwh2h2cwa@protonmail.com>, 2022, 2023.
+# Александр Русакевич <mr.alexander.rusakevich@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: 2023-03-22 12:38+0000\n"
-"Last-Translator: AHOHNMYC <lqwh2h2cwa@protonmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/ru/>\n"
+"PO-Revision-Date: 2025-02-18 16:59+0000\n"
+"Last-Translator: Александр Русакевич <mr.alexander.rusakevich@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -89,10 +90,12 @@ msgstr "Ручное расписание"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Использовать точное время вместо вычисленного автоматически на основе вашего "
+"местоположения."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Сменять тему только если есть приложение в полноэкранном режиме"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
@@ -121,11 +124,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
