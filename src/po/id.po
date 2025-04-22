@@ -7,129 +7,138 @@ msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-24 11:18+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-04-23 23:01+0000\n"
+"Last-Translator: Frumentius Josopandojo <frumentius.joso@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.11.1-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "Ubah latar belakang"
 
 #: src/data/ui/BackgroundButton.ui:24
 msgid "Select your background image"
-msgstr ""
+msgstr "Pilih gambar latar belakang"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "Latar Belakang"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"Perubahan latar belakang ditangani oleh Shell, pengaturan ini memungkinkan "
+"anda untuk memilih gambar yang akan digunakan."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "Latar belakang siang (terang)"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "Latar belakang malam (gelap)"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "Perintah"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "Jalankan perintah"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
-msgstr ""
+msgstr "Terbit"
 
 #: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
-msgstr ""
+msgstr "Terbenam"
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "Berkontribusi"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr ""
+msgstr "Lihat kode dan laporkan masalah"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "Ikut berkontribusi ke terjemahan"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "Jadwal"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr ""
+msgstr "Penjadwalan manual"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Gunakan penjadwalan manual sebagai pengganti penjadwalan berdasarkan lokasi "
+"anda."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Run the transition when an app is fullscreen"
 msgstr ""
+"Tetap jalankan perubahan walaupun ada aplikasi berjalan dalam mode layar "
+"penuh"
 
 #: src/data/ui/SchedulePage.ui:60
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Pintasan keyboard"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "Pilih…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "Ubah pintasan keyboard"
 
 #: src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "Hapus"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "Tekan tombol pintasan keyboard anda…"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
-msgstr ""
+msgstr "."
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr ""
+msgstr "Lokasi tidak dikenal"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "Penjadawalan manual akan digunakan untuk perubahan mode gelap."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "Ubah jadwal manual"
 
 #: src/preferences/BackgroundButton.js:94
 msgid "This image format is not supported."
-msgstr ""
+msgstr "Format gambar ini tidak didukung."
