@@ -12,6 +12,9 @@ import Gtk from 'gi://Gtk';
 import { gettext as _ } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 
+Gio._promisify(Gtk.FileDialog.prototype, 'open', 'open_finish');
+
+
 export class BackgroundButton extends Gtk.Button {
     #uri;
 
@@ -19,7 +22,7 @@ export class BackgroundButton extends Gtk.Button {
         GObject.registerClass({
             GTypeName: 'BackgroundButton',
             Template: 'resource:///org/gnome/Shell/Extensions/nightthemeswitcher/preferences/ui/BackgroundButton.ui',
-            InternalChildren: ['filechooser', 'thumbnail'],
+            InternalChildren: ['file_dialog', 'thumbnail'],
             Properties: {
                 uri: GObject.ParamSpec.string(
                     'uri',
@@ -52,7 +55,7 @@ export class BackgroundButton extends Gtk.Button {
         super(params);
         this.#setupSize();
         this.#setupDropTarget();
-        this.#setupFileChooserFilter();
+        this.#setupFileDialog();
     }
 
     get uri() {
@@ -101,10 +104,12 @@ export class BackgroundButton extends Gtk.Button {
         this.add_controller(dropTarget);
     }
 
-    #setupFileChooserFilter() {
-        this._filechooser.filter = new Gtk.FileFilter();
-        this._filechooser.filter.add_pixbuf_formats();
-        this._filechooser.filter.add_mime_type('application/xml');
+    #setupFileDialog() {
+        const filter = new Gtk.FileFilter();
+        filter.set_name(_('Image files'));
+        this.#getSupportedContentTypes().forEach(type => filter.add_mime_type(type));
+        this._file_dialog.filters = Gio.ListStore.new(Gtk.FileFilter);
+        this._file_dialog.filters.append(filter);
     }
 
     #getSupportedContentTypes() {
@@ -120,22 +125,18 @@ export class BackgroundButton extends Gtk.Button {
     }
 
     vfunc_mnemonic_activate() {
-        this.openFileChooser();
-    }
-
-    openFileChooser() {
-        this._filechooser.transient_for = this.get_root();
-        this._filechooser.show();
-    }
-
-    onFileChooserResponse(fileChooser, responseId) {
-        if (responseId !== Gtk.ResponseType.ACCEPT)
-            return;
-        this.uri = fileChooser.get_file().get_uri();
+        this.#setURIFromFileDialog();
     }
 
     onClicked(_button) {
-        this.openFileChooser();
+        this.#setURIFromFileDialog();
+    }
+
+    async #setURIFromFileDialog() {
+        try {
+            const file = await this._file_dialog.open(this.get_root(), null);
+            this.uri = file.get_uri();
+        } catch {}
     }
 
     #updateThumbnail() {
