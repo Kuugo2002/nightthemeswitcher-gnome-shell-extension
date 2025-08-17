@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-03-07 11:01+0000\n"
 "Last-Translator: Davide <davide.ferracin@protonmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/night-theme-"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Cambia lo sfondo"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Scegliere l'immagine di sfondo"
 
@@ -91,10 +91,24 @@ msgstr ""
 "posizione."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Esegui la transizione quando un'applicazione è a schermo intero"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Scorciatoia da tastiera"
 
@@ -140,9 +154,13 @@ msgstr ""
 msgid "Edit Manual Schedule"
 msgstr "Modifica programmazione"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Questo formato immagine non è supportato."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Impostazioni posizione"

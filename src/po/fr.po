@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-03-24 10:23+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Changer l’arrière-plan"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Sélectionnez votre image d’arrière-plan"
 
@@ -90,10 +90,26 @@ msgstr ""
 "position."
 
 #: src/data/ui/SchedulePage.ui:51
+#, fuzzy
+#| msgid "Automatic time source"
+msgid "Automatic schedule offset"
+msgstr "Source d’horaires automatique"
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Lancer la transition quand une application est en plein écran"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Raccourci clavier"
 
@@ -138,9 +154,13 @@ msgstr "Un horaire manuel sera utilisé pour permuter le mode sombre."
 msgid "Edit Manual Schedule"
 msgstr "Modifier l’horaire manuel"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Ce format d’image n’est pas supporté."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Ouvrir les paramètres de localisation"
@@ -585,9 +605,6 @@ msgstr "Ce format d’image n’est pas supporté."
 
 #~ msgid "Cancel"
 #~ msgstr "Annuler"
-
-#~ msgid "Automatic time source"
-#~ msgstr "Source d’horaires automatique"
 
 #~ msgid ""
 #~ "<small>The extension will try to use Night Light or Location Services to "

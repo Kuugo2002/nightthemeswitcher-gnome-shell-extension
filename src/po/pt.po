@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2025-08-12 21:02+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: Portuguese <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/pt/>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Mudar plano de fundo"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Selecione a imagem do plano de fundo"
 
@@ -88,10 +88,24 @@ msgstr ""
 "Use um cronograma manual em vez daquele calculado a partir do seu local."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Execute a transição quando uma app estiver em ecrã cheio"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Atalho de teclado"
 
@@ -136,6 +150,10 @@ msgstr "Um cronograma manual será usado para alternar o modo escuro."
 msgid "Edit Manual Schedule"
 msgstr "Editar Cronograma Manual"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Este formato de imagem não é suportado."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""

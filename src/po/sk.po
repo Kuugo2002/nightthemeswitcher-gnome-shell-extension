@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-12-02 01:00+0000\n"
 "Last-Translator: Jozef Gaal <preklady@mayday.sk>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/sk/>\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Zmeniť pozadie"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Vyberte svoj obrázok pozadia"
 
@@ -89,10 +89,24 @@ msgstr ""
 "harmonogram."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Spustiť prechod, keď je aplikácia na celú obrazovku"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Klávesová skratka"
 
@@ -137,6 +151,10 @@ msgstr "Na prepnutie tmavého režimu sa použije manuálny harmonogram."
 msgid "Edit Manual Schedule"
 msgstr "Upraviť manuálny harmonogram"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Tento formát obrázku nie je podporovaný."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""

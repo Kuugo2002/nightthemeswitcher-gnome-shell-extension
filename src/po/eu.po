@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2022-07-31 08:31+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/night-theme-"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Aldatu fondoa"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Hautatu hondoko irudia"
 
@@ -85,10 +85,24 @@ msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr ""
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Teklatuaren lasterbidea"
 
@@ -137,8 +151,12 @@ msgstr ""
 msgid "Edit Manual Schedule"
 msgstr "Eskuzko ordutegia"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
+msgstr ""
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
 msgstr ""
 
 #, fuzzy

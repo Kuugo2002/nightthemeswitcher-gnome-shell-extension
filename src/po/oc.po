@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-12-22 13:00+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
-"Language-Team: Occitan <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/oc/>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/oc/>\n"
 "Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Cambiar lo rèireplan"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Seleccionar l’imatge de rèireplan"
 
@@ -89,10 +89,24 @@ msgstr ""
 "Utilizar un orari manual a la plaça del calcul a partir de la localizacion."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Lançar la transicion quand l'aplicacion es en ecran complèt"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Acorchi de clavièr"
 
@@ -137,9 +151,13 @@ msgstr "Un orari manual serà utilizat per bascular al mòde escur."
 msgid "Edit Manual Schedule"
 msgstr "Modificar l’orari manual"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Aqueste format d’imatge es pas pres en carga."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Dobrir los paramètres de localizacion"

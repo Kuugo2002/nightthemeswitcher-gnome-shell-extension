@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-06-03 15:09+0000\n"
 "Last-Translator: hugoalh <hugoalh@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Change background"
 msgstr "變更背景"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "選擇您的背景圖片"
 
@@ -87,10 +87,24 @@ msgid "Use a manual schedule instead of the one computed from your location."
 msgstr "使用手動排程而不是根據你所在位置計算的時間。"
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "當某個應用程式全螢幕時也進行轉換"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "鍵盤快捷鍵"
 
@@ -135,9 +149,13 @@ msgstr "手動排程將被用於切換深色模式。"
 msgid "Edit Manual Schedule"
 msgstr "編輯手動排程"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "不支援此圖片格式。"
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "開啟位置設定"

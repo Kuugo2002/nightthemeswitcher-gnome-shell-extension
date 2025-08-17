@@ -14,11 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 45\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-08-12 02:06+0000\n"
 "Last-Translator: Amr Ibrahim <amribrahim1987@hotmail.com>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/de/>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Hintergrundbild wechseln"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Hintergrundbild wählen"
 
@@ -97,10 +97,26 @@ msgstr ""
 "berechneten Zeitplans."
 
 #: src/data/ui/SchedulePage.ui:51
+#, fuzzy
+#| msgid "Automatic time source"
+msgid "Automatic schedule offset"
+msgstr "Automatische Zeitquelle"
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Den Übergang ausführen, wenn eine Anwendung im Vollbildmodus ist"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Tastaturkürzel"
 
@@ -139,15 +155,20 @@ msgstr "Unbekannter Standort"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr "Ein manueller Zeitplan wird verwendet, um den Dunkelmodus umzuschalten."
+msgstr ""
+"Ein manueller Zeitplan wird verwendet, um den Dunkelmodus umzuschalten."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
 msgstr "Manuellen Zeitplan bearbeiten"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Dieses Bildformat wird nicht unterstützt."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Ortseinstellungen"
@@ -593,6 +614,3 @@ msgstr "Dieses Bildformat wird nicht unterstützt."
 
 #~ msgid "Cancel"
 #~ msgstr "Abbrechen"
-
-#~ msgid "Automatic time source"
-#~ msgstr "Automatische Zeitquelle"

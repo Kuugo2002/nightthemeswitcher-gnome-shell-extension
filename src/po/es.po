@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 43\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-03-10 16:01+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/night-theme-"
@@ -25,7 +25,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Cambiar fondo"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Seleccionar imagen de fondo"
 
@@ -91,10 +91,26 @@ msgstr ""
 "Utilice un horario manual en lugar del calculado a partir de su ubicación."
 
 #: src/data/ui/SchedulePage.ui:51
+#, fuzzy
+#| msgid "Automatic time source"
+msgid "Automatic schedule offset"
+msgstr "Fuente de tiempo automática"
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "Ejecutar la transición cuando una aplicación está a pantalla completa"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Atajo del teclado"
 
@@ -139,9 +155,13 @@ msgstr "Se usará un horario manual para cambiar al modo oscuro."
 msgid "Edit Manual Schedule"
 msgstr "Editar horario manualmente"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Este formato de imagen no es compatible."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Abrir los ajustes de la ubicación"
@@ -586,6 +606,3 @@ msgstr "Este formato de imagen no es compatible."
 
 #~ msgid "Cancel"
 #~ msgstr "Cancelar"
-
-#~ msgid "Automatic time source"
-#~ msgstr "Fuente de tiempo automática"

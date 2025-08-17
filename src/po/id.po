@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2025-04-23 23:01+0000\n"
 "Last-Translator: Frumentius Josopandojo <frumentius.joso@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"night-theme-switcher/extension/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/night-theme-"
+"switcher/extension/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Change background"
 msgstr "Ubah latar belakang"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "Pilih gambar latar belakang"
 
@@ -89,12 +89,26 @@ msgstr ""
 "anda."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr ""
 "Tetap jalankan perubahan walaupun ada aplikasi berjalan dalam mode layar "
 "penuh"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "Pintasan keyboard"
 
@@ -139,6 +153,10 @@ msgstr "Penjadawalan manual akan digunakan untuk perubahan mode gelap."
 msgid "Edit Manual Schedule"
 msgstr "Ubah jadwal manual"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "Format gambar ini tidak didukung."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""

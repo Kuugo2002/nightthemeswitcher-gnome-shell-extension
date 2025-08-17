@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-24 11:18+0100\n"
+"POT-Creation-Date: 2025-08-17 17:43+0200\n"
 "PO-Revision-Date: 2024-03-16 00:02+0000\n"
 "Last-Translator: Omar TS <ots@duck.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/night-theme-"
@@ -26,7 +26,7 @@ msgstr ""
 msgid "Change background"
 msgstr "غيّر الخلفية"
 
-#: src/data/ui/BackgroundButton.ui:24
+#: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
 msgstr "حدد صورة الخلفية الخاصة بك"
 
@@ -91,10 +91,24 @@ msgid "Use a manual schedule instead of the one computed from your location."
 msgstr "استخدم جدولًا يدويًا بدلاً من الجدول المحسوب من موقعك."
 
 #: src/data/ui/SchedulePage.ui:51
+msgid "Automatic schedule offset"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:52
+msgid ""
+"A positive value makes the night longer, a negative value makes the day "
+"longer."
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:71
+msgid "hours"
+msgstr ""
+
+#: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
 msgstr "شغّل النقل عندما يكون التطبيق في وضع ملء الشاشة"
 
-#: src/data/ui/SchedulePage.ui:60
+#: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
 msgstr "اختصار لوحة المفاتيح"
 
@@ -139,9 +153,13 @@ msgstr "سيتم استخدام جدول يدوي لتبديل الوضع الم
 msgid "Edit Manual Schedule"
 msgstr "تعديل الجدولة اليدوية"
 
-#: src/preferences/BackgroundButton.js:94
+#: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
 msgstr "تنسيق الصورة هذا غير مدعوم."
+
+#: src/preferences/BackgroundButton.js:109
+msgid "Image files"
+msgstr ""
 
 #~ msgid "Open Location Settings"
 #~ msgstr "افتح إعدادات الموقع"
