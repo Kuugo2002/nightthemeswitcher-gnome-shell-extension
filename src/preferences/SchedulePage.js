@@ -16,6 +16,7 @@ export class SchedulePage extends Adw.PreferencesPage {
                 'keyboard_shortcut_button',
                 'schedule_sunrise_time_chooser',
                 'schedule_sunset_time_chooser',
+                'schedule_offset_spin_button',
                 'fullscreen_transition_switch',
             ],
         }, this);
@@ -28,6 +29,8 @@ export class SchedulePage extends Adw.PreferencesPage {
 
         settings.bind('sunrise', this._schedule_sunrise_time_chooser, 'time', Gio.SettingsBindFlags.DEFAULT);
         settings.bind('sunset', this._schedule_sunset_time_chooser, 'time', Gio.SettingsBindFlags.DEFAULT);
+
+        settings.bind('offset', this._schedule_offset_spin_button, 'value', Gio.SettingsBindFlags.DEFAULT);
 
         settings.bind('fullscreen-transition', this._fullscreen_transition_switch, 'active', Gio.SettingsBindFlags.DEFAULT);
 

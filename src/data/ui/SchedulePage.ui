@@ -47,6 +47,39 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <child>
       <object class="AdwPreferencesGroup">
         <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Automatic schedule offset</property>
+            <property name="subtitle" translatable="yes">A positive value makes the night longer, a negative value makes the day longer.</property>
+            <child>
+              <object class="GtkBox">
+                <property name="spacing">8</property>
+                <child>
+                  <object class="GtkSpinButton" id="schedule_offset_spin_button">
+                    <property name="digits">2</property>
+                    <property name="valign">center</property>
+                    <property name="adjustment">
+                      <object class="GtkAdjustment">
+                        <property name="lower">-6</property>
+                        <property name="upper">6</property>
+                        <property name="step-increment">0.01</property>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="label" translatable="yes">hours</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="AdwPreferencesGroup">
+        <child>
           <object class="AdwSwitchRow" id="fullscreen_transition_switch">
             <property name="title" translatable="yes">Run the transition when an app is fullscreen</property>
           </object>

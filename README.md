@@ -66,16 +66,6 @@ Unfortunately, Ubuntu ships heavily modified GNOME components to implement some 
 
 As the issue is in Ubuntu, and because I don't have the energy nor the will to work around the consequences of their decisions, unfortunately Ubuntu is not supported until it provides a standard GNOME environment.
 
-### Switching happens too early/too late
-
-There's a hidden setting to configure the offset (in hours) applied to the calculated sunrise and sunset times, you can change it with the `gsettings` command:
-
-```
-gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time offset $DESIRED_OFFSET
-```
-
-The default offset is `0.4`, set it to `0` do disable it.
-
 ### I have disabled Location services but want to use sunrise and sunset times from my location
 
 If you know your coordinates, you can enter them in a hidden setting, and the extension will use them to calculate the sunrise and sunset times. You can set it with the `gsettings` command:
