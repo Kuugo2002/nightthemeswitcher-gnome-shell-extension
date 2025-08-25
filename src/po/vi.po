@@ -7,148 +7,154 @@ msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-08-26 06:01+0000\n"
+"Last-Translator: NightOwlEyes <dohuytruc1922tlh@gmail.com>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
-msgstr ""
+msgstr "Thay đổi ảnh nền"
 
 #: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
-msgstr ""
+msgstr "Chọn hình nền của bạn"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
-msgstr ""
+msgstr "Hình nền"
 
 #: src/data/ui/BackgroundsPage.ui:13
 msgid ""
 "Background switching is handled by the Shell, these settings allow you to "
 "change the images it uses."
 msgstr ""
+"Việc chuyển đổi nền được xử lý bởi Shell, các thiết lập này cho phép bạn "
+"thay đổi hình ảnh mà nó sử dụng."
 
 #: src/data/ui/BackgroundsPage.ui:16
 msgid "Day background"
-msgstr ""
+msgstr "Hình nền ban ngày"
 
 #: src/data/ui/BackgroundsPage.ui:29
 msgid "Night background"
-msgstr ""
+msgstr "Hình nền ban đêm"
 
 #: src/data/ui/CommandsPage.ui:9
 msgid "Commands"
-msgstr ""
+msgstr "Lệnh"
 
 #: src/data/ui/CommandsPage.ui:13
 msgid "Run commands"
-msgstr ""
+msgstr "Chạy lệnh"
 
 #: src/data/ui/CommandsPage.ui:21 src/data/ui/SchedulePage.ui:21
 msgid "Sunrise"
-msgstr ""
+msgstr "Bình minh"
 
 #: src/data/ui/CommandsPage.ui:28 src/data/ui/SchedulePage.ui:34
 msgid "Sunset"
-msgstr ""
+msgstr "Hoàng hôn"
 
 #: src/data/ui/ContributePage.ui:9
 msgid "Contribute"
-msgstr ""
+msgstr "Đóng góp"
 
 #: src/data/ui/ContributePage.ui:42
 msgid "View the code and report issues"
-msgstr ""
+msgstr "Xem mã và báo cáo sự cố"
 
 #: src/data/ui/ContributePage.ui:55
 msgid "Contribute to the translation"
-msgstr ""
+msgstr "Đóng góp vào bản dịch"
 
 #: src/data/ui/SchedulePage.ui:9
 msgid "Schedule"
-msgstr ""
+msgstr "Lịch trình"
 
 #: src/data/ui/SchedulePage.ui:15
 msgid "Manual schedule"
-msgstr ""
+msgstr "Lịch trình thủ công"
 
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
+"Sử dụng lịch trình thủ công thay vì lịch trình được tính toán tại vị trí của "
+"bạn."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
-msgstr ""
+msgstr "Tự động bù trừ lịch trình"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
-msgstr ""
+msgstr "Giá trị dương làm cho đêm dài hơn, giá trị âm làm cho ngày dài hơn."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "giờ"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
-msgstr ""
+msgstr "Chạy chuyển tiếp khi ứng dụng ở chế độ toàn màn hình"
 
 #: src/data/ui/SchedulePage.ui:93
 msgid "Keyboard shortcut"
-msgstr ""
+msgstr "Phím tắt"
 
 #: src/data/ui/ShortcutButton.ui:15
 msgid "Choose…"
-msgstr ""
+msgstr "Chọn…"
 
 #: src/data/ui/ShortcutButton.ui:32
 msgid "Change keyboard shortcut"
-msgstr ""
+msgstr "Thay đổi phím tắt"
 
 #: src/data/ui/ShortcutButton.ui:43
 msgid "Clear"
-msgstr ""
+msgstr "Làm sạch"
 
 #: src/data/ui/ShortcutButton.ui:78
 msgid "Press your keyboard shortcut…"
-msgstr ""
+msgstr "Nhấn phím tắt…"
 
 #. Time separator (eg. 08:27)
 #: src/data/ui/TimeChooser.ui:33 src/data/ui/TimeChooser.ui:91
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr ""
+msgstr "SA"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr ""
+msgstr "CH"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
-msgstr ""
+msgstr "Vị trí không xác định"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr ""
+msgstr "Sẽ sử dụng lịch trình thủ công để chuyển sang chế độ tối."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
-msgstr ""
+msgstr "Chỉnh sửa lịch trình thủ công"
 
 #: src/preferences/BackgroundButton.js:97
 msgid "This image format is not supported."
-msgstr ""
+msgstr "Định dạng hình ảnh này không được hỗ trợ."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Tệp hình ảnh"
