@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the Night Theme Switcher package.
 # Balázs Úr <balazs@urbalazs.hu>, 2021.
 # Péter Báthory <bathory86p@gmail.com>, 2022.
-# "Benedek Vigh (冯白诺)" <benedek.vigh@gmail.com>, 2024.
+# "Benedek Vigh (冯白诺)" <benedek.vigh@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2024-08-01 10:09+0000\n"
+"PO-Revision-Date: 2025-08-26 06:01+0000\n"
 "Last-Translator: \"Benedek Vigh (冯白诺)\" <benedek.vigh@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -91,17 +91,19 @@ msgstr ""
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
-msgstr ""
+msgstr "Automatikus időzítés"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
 msgstr ""
+"Egy pozitív érték az éjszakai, míg egy negatív érték a nappali mód hosszát "
+"növeli."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "órák"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -160,7 +162,7 @@ msgstr "A képformátum nem támogatott."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Képfájlok"
 
 #, fuzzy
 #~| msgid "Extension Settings"
