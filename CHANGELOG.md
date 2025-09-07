@@ -6,6 +6,32 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [80] - 2025-09-06
+
+This version adds support for GNOME 49 and removes support for GNOME 48.
+
+### Added
+
+- GNOME 49 support
+- Allow setting the automatic schedule offset in the preferences
+- Indonesian translation by Frumentius Josopandojo
+- Portuguese translation by @SantosSi
+- Vietnamese translation by @NightOwlEyes
+
+### Changed
+
+- Updated Dutch translation by @philip.goto
+- Updated French translation
+- Updated Hungarian translation by @fengbainuo
+- Updated Occitan translation by @quenty_occitania
+- Updated Slovak translation by @dodog
+- Updated Swedish translation by @bittin
+
+### Removed
+
+- GNOME 48 support
+
+
 ## [79] - 2025-03-16
 
 This version adds support for GNOME 48 and removes support for GNOME 47.
