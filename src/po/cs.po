@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
 # vikdevelop <super-vik1@protonmail.com>, 2022, 2024.
 # Vojtěch Perník <translations@pervoj.cz>, 2022.
+# Tomáš Mark <tomas@digitalspace.name>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2024-03-05 17:01+0000\n"
-"Last-Translator: vikdevelop <super-vik1@protonmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/cs/>\n"
+"PO-Revision-Date: 2025-09-22 06:01+0000\n"
+"Last-Translator: Tomáš Mark <tomas@digitalspace.name>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -25,7 +26,7 @@ msgstr "Změnit pozadí"
 
 #: src/data/ui/BackgroundButton.ui:23
 msgid "Select your background image"
-msgstr "Vyberte obrázek pozadí"
+msgstr "Vybrat obrázek pozadí"
 
 #: src/data/ui/BackgroundsPage.ui:9
 msgid "Backgrounds"
@@ -89,17 +90,17 @@ msgstr "Použijte ruční plánování místo plánování vypočteného z vaš�
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
-msgstr ""
+msgstr "Automatický posun plánu"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
-msgstr ""
+msgstr "Kladná hodnota prodlužuje noc, záporná hodnota prodlužuje den."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "hodin(y)"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -156,7 +157,7 @@ msgstr "Tento formát obrázku není podporován."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Obrázky"
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Otevřít nastavení polohy"
