@@ -6,23 +6,23 @@
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Veli Tasalı <veli.tasali@gmail.com>, 2021.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2022.
-# Oğuz Ersen <oguz@ersen.moe>, 2022, 2024.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2024, 2025.
 # Furkan Baytekin <furkanbaytekin@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher 43\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2024-03-07 11:01+0000\n"
-"Last-Translator: Furkan Baytekin <furkanbaytekin@gmail.com>\n"
-"Language-Team: Turkish <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/tr/>\n"
+"PO-Revision-Date: 2025-10-11 14:07+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=0;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -94,20 +94,18 @@ msgstr ""
 "Konumunuzdan hesaplanan zamanlama yerine elle yapılan bir zamanlama kullanın."
 
 #: src/data/ui/SchedulePage.ui:51
-#, fuzzy
-#| msgid "Automatic time source"
 msgid "Automatic schedule offset"
-msgstr "Otomatik zaman kaynağı"
+msgstr "Otomatik zamanlama farkı"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
-msgstr ""
+msgstr "Pozitif değer geceyi uzatır, negatif değer gündüzü uzatır."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "saat"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -164,7 +162,7 @@ msgstr "Bu görüntü biçimi desteklenmiyor."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Resim dosyaları"
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Konum Ayarlarını Aç"
