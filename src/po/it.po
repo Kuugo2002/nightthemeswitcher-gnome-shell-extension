@@ -4,21 +4,22 @@
 # Davide <davide.ferracin@protonmail.com>, 2022, 2024.
 # Romain Vigier <romain@romainvigier.fr>, 2022.
 # Andrea Brandi <git@andreabrandi.com>, 2022.
+# A-Panic <andreapanico1997@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2024-03-07 11:01+0000\n"
-"Last-Translator: Davide <davide.ferracin@protonmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/night-theme-"
-"switcher/extension/it/>\n"
+"PO-Revision-Date: 2025-11-17 16:51+0000\n"
+"Last-Translator: A-Panic <andreapanico1997@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/"
+"night-theme-switcher/extension/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -92,17 +93,17 @@ msgstr ""
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
-msgstr ""
+msgstr "Scostamento programmazione automatica"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
-msgstr ""
+msgstr "Un valore positivo rende la notte più lunga, uno negativo il giorno."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "ore"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -160,7 +161,7 @@ msgstr "Questo formato immagine non è supportato."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Immagini"
 
 #~ msgid "Open Location Settings"
 #~ msgstr "Impostazioni posizione"
