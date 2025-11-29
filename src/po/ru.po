@@ -7,13 +7,14 @@
 # AHOHNMYC <lqwh2h2cwa@protonmail.com>, 2022, 2023.
 # Александр Русакевич <mr.alexander.rusakevich@gmail.com>, 2025.
 # Artem Baryshev <artemxaoc@gmail.com>, 2025.
+# Nurlan Musayev <nurlancik1@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: Night Theme Switcher\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2025-11-10 12:51+0000\n"
-"Last-Translator: Artem Baryshev <artemxaoc@gmail.com>\n"
+"PO-Revision-Date: 2025-11-30 11:00+0000\n"
+"Last-Translator: Nurlan Musayev <nurlancik1@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/"
 "night-theme-switcher/extension/ru/>\n"
 "Language: ru\n"
@@ -92,8 +93,8 @@ msgstr "Ручное расписание"
 #: src/data/ui/SchedulePage.ui:16
 msgid "Use a manual schedule instead of the one computed from your location."
 msgstr ""
-"Использовать точное время вместо вычисленного автоматически на основе вашего "
-"местоположения."
+"Использовать расписание, указанное вручную, а не рассчитанное исходя из "
+"вашего местоположения."
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
@@ -103,7 +104,7 @@ msgstr "Автоматически сдвигать рассписание"
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
-msgstr "Положительное значение удлинняет ночь, отрицательное удлинняет день."
+msgstr "Положительное значение удлиняет ночь, отрицательное удлиняет день."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
@@ -140,11 +141,11 @@ msgstr ":"
 
 #: src/data/ui/TimeChooser.ui:52
 msgid "AM"
-msgstr "AM"
+msgstr "АМ"
 
 #: src/data/ui/TimeChooser.ui:58
 msgid "PM"
-msgstr "PM"
+msgstr "РМ"
 
 #: src/modules/Timer.js:285
 msgid "Unknown Location"
@@ -152,7 +153,7 @@ msgstr "Неизвестное местоположение"
 
 #: src/modules/Timer.js:286
 msgid "A manual schedule will be used to switch the dark mode."
-msgstr "Использовать расписание для переключения тёмного режима."
+msgstr "Будет использовано ручное переключение в темный режим."
 
 #: src/modules/Timer.js:290
 msgid "Edit Manual Schedule"
