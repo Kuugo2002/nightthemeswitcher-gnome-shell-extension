@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
-# "Omer I.S." <omeritzicschwartz@gmail.com>, 2024.
+# "Omer I.S." <omeritzicschwartz@gmail.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2024-06-17 13:32+0000\n"
+"PO-Revision-Date: 2025-12-09 15:00+0000\n"
 "Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://hosted.weblate.org/projects/night-theme-"
 "switcher/extension/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "שעות"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -156,4 +156,4 @@ msgstr "פורמט תמונה זה אינו נתמך."
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "קובצי תמונות"
