@@ -54,8 +54,8 @@ export class TimeChooser extends Gtk.Widget {
 
     #convertTimeTo12hFormat(time) {
         const { hours: hours24, minutes } = this.#convertTimeTo24hFormat(time);
-        const hours = hours24 % 12;
-        const isPm = hours24 > 12;
+        const hours = hours24 === 0 ? 12 : hours24 % 12;
+        const isPm = hours24 >= 12;
         return { hours, minutes, isPm };
     }
 
@@ -64,10 +64,10 @@ export class TimeChooser extends Gtk.Widget {
     }
 
     #convert12hFormatToTime({ hours, minutes, isPm }) {
-        return this.#convert24hFormatToTime({
-            hours: hours + Number(isPm) * 12,
-            minutes,
-        });
+        let hours24 = hours + Number(isPm) * 12;
+        if (hours === 12)
+            hours24 = isPm ? 12 : 0;
+        return this.#convert24hFormatToTime({ hours: hours24, minutes });
     }
 
     onTimeChanged(_chooser) {
