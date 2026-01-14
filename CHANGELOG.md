@@ -6,6 +6,13 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [81] - 2026-01-14
+
+### Fixed
+
+- Conversion to/from 24h/12h format was wrong
+
+
 ## [80] - 2025-09-06
 
 This version adds support for GNOME 49 and removes support for GNOME 48.
