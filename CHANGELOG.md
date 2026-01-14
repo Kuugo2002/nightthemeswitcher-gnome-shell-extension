@@ -8,6 +8,15 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ## [81] - 2026-01-14
 
+### Changed
+
+- Updated Czech translation by @tomasmark79
+- Updated Hebrew translation by @omeritzics
+- Updated Italian translation by A-Panic
+- Updated Russian translation by @artemxaoc and @7up4
+- Updated Spanish translation by Óscar Fernández Díaz
+- Updated Turkish translation by @ersen
+
 ### Fixed
 
 - Conversion to/from 24h/12h format was wrong
