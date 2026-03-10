@@ -6,6 +6,19 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [82] - 2026-03-10
+
+This version adds support for GNOME 50 and removes support for GNOME 49.
+
+### Added
+
+- GNOME 50 support
+
+### Removed
+
+- GNOME 49 support
+
+
 ## [81] - 2026-01-14
 
 ### Changed
