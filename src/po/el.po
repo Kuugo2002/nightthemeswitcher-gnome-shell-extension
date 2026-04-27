@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the nightthemeswitcher@romainvigier.fr package.
 # Nikolas Tsilivis <nikolas.tsilivis@evooq.ch>, 2022.
 # geonetor <geonetor@yahoo.gr>, 2025.
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: nightthemeswitcher@romainvigier.fr\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-08-17 17:43+0200\n"
-"PO-Revision-Date: 2025-02-09 04:33+0000\n"
-"Last-Translator: geonetor <geonetor@yahoo.gr>\n"
+"PO-Revision-Date: 2026-04-29 00:09+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/night-theme-"
 "switcher/extension/el/>\n"
 "Language: el\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: src/data/ui/BackgroundButton.ui:8
 msgid "Change background"
@@ -91,17 +92,19 @@ msgstr ""
 
 #: src/data/ui/SchedulePage.ui:51
 msgid "Automatic schedule offset"
-msgstr ""
+msgstr "Μετατόπιση αυτόματου προγράμματος"
 
 #: src/data/ui/SchedulePage.ui:52
 msgid ""
 "A positive value makes the night longer, a negative value makes the day "
 "longer."
 msgstr ""
+"Μια θετική τιμή παρατείνει τη νύχτα, ενώ μια αρνητική τιμή παρατείνει την "
+"ημέρα."
 
 #: src/data/ui/SchedulePage.ui:71
 msgid "hours"
-msgstr ""
+msgstr "ώρες"
 
 #: src/data/ui/SchedulePage.ui:84
 msgid "Run the transition when an app is fullscreen"
@@ -158,7 +161,7 @@ msgstr "Αυτή η μορφή εικόνας δεν υποστηρίζεται.
 
 #: src/preferences/BackgroundButton.js:109
 msgid "Image files"
-msgstr ""
+msgstr "Αρχεία εικόνων"
 
 #~ msgid "Switch GTK theme"
 #~ msgstr "Αλλαγή θέματος GTK"
