@@ -3,84 +3,84 @@ SPDX-FileCopyrightText: Night Theme Switcher Contributors
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Night Theme Switcher
+# 夜间主题切换器
 
 ![](./res/screenshot.png)
 
-Automatically toggle your desktop’s color scheme between light and dark, switch backgrounds and run custom commands at sunset and sunrise.
+在日落和日出时自动切换桌面的浅色和深色配色方案、更换背景并运行自定义命令。
 
-## Graphical installation
+## 图形化安装
 
-Visit [the extension page on extensions.gnome.org](https://extensions.gnome.org/extension/2236/night-theme-switcher/) and enable the extension.
+访问 [extensions.gnome.org 上的扩展页面](https://extensions.gnome.org/extension/2236/night-theme-switcher/) 并启用该扩展。
 
-## Command line installation
+## 命令行安装
 
-You will need these tools:
+您需要以下工具：
 
 - `meson`
 - `gettext`
 - `glib-compile-schemas`
 - `glib-compile-resources`
 
-Clone the repository and enter the directory:
+克隆仓库并进入目录：
 
 ```bash
 git clone https://gitlab.com/rmnvgr/nightthemeswitcher-gnome-shell-extension.git && cd nightthemeswitcher-gnome-shell-extension
 ```
 
-Build and install using `meson`:
+使用 `meson` 构建并安装：
 
 ```bash
-# System-wide installation
+# 系统级安装
 meson setup builddir && meson install -C builddir
 
-# User installation
+# 用户级安装
 meson setup builddir --prefix=~/.local && meson install -C builddir
 ```
 
-Restart your GNOME session and enable the extension:
+重启 GNOME 会话并启用扩展：
 
 ```bash
 gnome-extensions enable nightthemeswitcher@romainvigier.fr
 ```
 
-## Contributing
+## 贡献
 
-You're welcome to contribute to the code or the translations! See [CONTRIBUTING.md](./CONTRIBUTING.md).
+欢迎您为代码或翻译做出贡献！详见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
-## Frequently asked questions
+## 常见问题
 
-### Some applications don't switch their appearance
+### 某些应用程序没有切换外观
 
-Like GNOME's built-in dark mode, the extension switches the standard freedesktop.org color scheme preference. Older applications might not follow this preference.
+与 GNOME 内置的深色模式一样，本扩展会切换标准的 freedesktop.org 配色方案首选项。较旧的应用程序可能不会遵循此首选项。
 
-It is possible to force a GTK theme by running commands in the extension preferences, but please note that this can visually break applications. It is better to ask the developers of the applications to support the standard preference.
+可以通过在扩展首选项中运行命令来强制使用特定的 GTK 主题，但请注意这可能会导致应用程序显示异常。更好的做法是请求应用程序开发者支持标准的首选项。
 
 ```
 gsettings set org.gnome.desktop.interface gtk-theme $THEME_NAME
 ```
 
-### Something doesn't work on Ubuntu
+### 在 Ubuntu 上某些功能无法正常工作
 
-Unfortunately, Ubuntu ships heavily modified GNOME components to implement some of its features, like accent colors. Because it does so in a very hacky way instead of working with upstream and other desktop projects on a proper solution, it conflicts with anything that deals with the color scheme and themes, and results in a broken experience with the extension.
+不幸的是，Ubuntu 为了实现其某些功能（如强调色）而 heavily 修改了 GNOME 组件。由于其采用非常 hacky 的方式而不是与上游及其他桌面项目合作寻求合适的解决方案，导致与任何处理配色方案和主题的扩展产生冲突，使得扩展体验受损。
 
-As the issue is in Ubuntu, and because I don't have the energy nor the will to work around the consequences of their decisions, unfortunately Ubuntu is not supported until it provides a standard GNOME environment.
+由于问题出在 Ubuntu 本身，而且我没有精力和意愿去应对其决策带来的后果，因此直到 Ubuntu 提供标准的 GNOME 环境之前，暂不支持 Ubuntu。
 
-### I have disabled Location services but want to use sunrise and sunset times from my location
+### 我已禁用位置服务但仍想使用我所在位置的日出和日落时间
 
-If you know your coordinates, you can enter them in a hidden setting, and the extension will use them to calculate the sunrise and sunset times. You can set it with the `gsettings` command:
+如果您知道自己的坐标，可以在一个隐藏设置中输入它们，扩展将使用这些坐标来计算日出和日落时间。您可以使用 `gsettings` 命令进行设置：
 
 ```
 gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.time location '($LATITUDE,$LONGITUDE)'
 ```
 
-### I want to use the `prefer-light` color scheme or change the color scheme used during the day/night
+### 我想使用 `prefer-light` 配色方案或更改白天/夜间使用的配色方案
 
-There are two hidden settings to change the color scheme used during the day or night:
+有两个隐藏设置可以更改白天或夜间使用的配色方案：
 
 ```
 gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.color-scheme day $DESIRED_COLORSCHEME
 gsettings --schemadir ~/.local/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/schemas/ set org.gnome.shell.extensions.nightthemeswitcher.color-scheme night $DESIRED_COLORSCHEME
 ```
 
-With `$DESIRED_COLORSCHEME` one of `default`, `prefer-dark` or `prefer-light`.
+其中 `$DESIRED_COLORSCHEME` 可以是 `default`、`prefer-dark` 或 `prefer-light` 之一。

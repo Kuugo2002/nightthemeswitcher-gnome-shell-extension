@@ -171,13 +171,9 @@ export class Timer extends GObject.Object {
 
 
     #trackLocation() {
-        debug.message('Connecting to GeoClue...');
-        Geoclue.Simple.new(
-            'org.gnome.Shell',
-            Geoclue.AccuracyLevel.CITY,
-            this.#cancellable,
-            this.#onGeoclueReady.bind(this)
-        );
+        debug.message('Using fixed location, skipping GeoClue connection.');
+        // 不再连接 GeoClue，直接使用固定坐标
+        this.#onGeoclueReady(null, null);
     }
 
     #untrackLocation() {
@@ -259,42 +255,19 @@ export class Timer extends GObject.Object {
         this.#addKeybinding();
     }
 
+    // 在这里修改为使用固定坐标
     #onGeoclueReady(_geoclue, result) {
         try {
-            this.#geoclue = Geoclue.Simple.new_finish(result);
-            this.#geoclueLocationConnectionId = this.#geoclue.connect('notify::location', this.#onLocationChanged.bind(this));
-            debug.message('Connected to GeoClue.');
-            this.#onLocationChanged();
+            // 固定使用我自己的坐标的经纬度坐标
+            const myLatitude = 34.76;
+            const myLongitude = 113.65;
+            
+            debug.message('Using fixed location.');
+            this.#settings.set_value('location', new GLib.Variant('(dd)', [myLatitude, myLongitude]));
+            debug.message(`Fixed location: (${myLatitude};${myLongitude})`);
+            this.#updateSuntimes();
         } catch (e) {
-            const [latitude, longitude] = this.#settings.get_value('location').deepUnpack();
-            if (latitude >= -90 && latitude <= 90 && longitude >= -180 && longitude <= 180) {
-                console.error(`[${NTS.metadata.name}] Unable to retrieve the location, using the last known location instead.\n${e}`);
-                this.#updateSuntimes();
-            } else {
-                console.error(`[${NTS.metadata.name}] Unable to retrieve the location, using the manual schedule times instead.\n${e}`);
-
-                const source = new MessageTray.Source({
-                    title: NTS.metadata.name,
-                    icon: Gio.icon_new_for_string(GLib.build_filenamev([NTS.metadata.path, 'icons', 'nightthemeswitcher-symbolic.svg'])),
-                });
-                messageTray.add(source);
-
-                const notification = new MessageTray.Notification(
-                    {
-                        source,
-                        title: _('Unknown Location'),
-                        body: _('A manual schedule will be used to switch the dark mode.'),
-                        'icon-name': 'location-services-disabled-symbolic',
-                    }
-                );
-                notification.addAction(_('Edit Manual Schedule'), () => NTS.openPreferences());
-
-                notification.connect('activated', () => NTS.openPreferences());
-
-                source.addNotification(notification);
-
-                this.#settings.set_boolean('manual-schedule', true);
-            }
+            console.error(`[${NTS.metadata.name}] Error setting fixed location.\n${e}`);
         }
     }
 

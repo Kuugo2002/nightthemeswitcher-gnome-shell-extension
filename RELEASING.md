@@ -3,11 +3,11 @@ SPDX-FileCopyrightText: Night Theme Switcher Contributors
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
-# Releasing
+# 发布流程
 
-Release checklist:
+发布检查清单：
 
-- Bump version number in [`meson.build`](./meson.build)
-- Add entry in [`CHANGELOG.md`](./CHANGELOG.md)
+- 在 [`meson.build`](./meson.build) 中更新版本号
+- 在 [`CHANGELOG.md`](./CHANGELOG.md) 中添加条目
 
-To make a release, create a new tag. The CI will automatically add release notes from the changelog.
+要创建发布，请创建一个新标签。CI 将自动从变更日志中添加发布说明。
