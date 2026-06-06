@@ -1,12 +1,12 @@
 // SPDX-FileCopyrightText: Night Theme Switcher Contributors
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-import Geoclue from 'gi://Geoclue';
 import Gio from 'gi://Gio';
 import GLib from 'gi://GLib';
 import GObject from 'gi://GObject';
 import Meta from 'gi://Meta';
 import Shell from 'gi://Shell';
+import Soup from 'gi://Soup';
 
 import { gettext as _ } from 'resource:///org/gnome/shell/extensions/extension.js';
 import { layoutManager, messageTray, wm } from 'resource:///org/gnome/shell/ui/main.js';
@@ -171,9 +171,8 @@ export class Timer extends GObject.Object {
 
 
     #trackLocation() {
-        debug.message('Using fixed location, skipping GeoClue connection.');
-        // 不再连接 GeoClue，直接使用固定坐标
-        this.#onGeoclueReady(null, null);
+        debug.message('Fetching location from IP API...');
+        this.#fetchLocationFromIP();
     }
 
     #untrackLocation() {
@@ -255,7 +254,52 @@ export class Timer extends GObject.Object {
         this.#addKeybinding();
     }
 
-    // 在这里修改为使用固定坐标
+    #fetchLocationFromIP() {
+        const url = 'http://ip-api.com/json/?fields=lat,lon';
+        
+        const session = new Soup.Session();
+        const message = Soup.Message.new('GET', url);
+        
+        session.send_async(message, GLib.PRIORITY_DEFAULT, this.#cancellable, (session, result) => {
+            try {
+                const inputStream = session.send_finish(result);
+                const dataInputStream = new Gio.DataInputStream({
+                    base_stream: inputStream,
+                });
+                
+                const [response] = dataInputStream.read_upto('\0', -1, null);
+                dataInputStream.close(null);
+                inputStream.close(null);
+                
+                const jsonData = JSON.parse(response);
+                const latitude = jsonData.lat;
+                const longitude = jsonData.lon;
+                
+                if (latitude !== undefined && longitude !== undefined) {
+                    debug.message(`Location fetched from IP API: (${latitude};${longitude})`);
+                    this.#settings.set_value('location', new GLib.Variant('(dd)', [latitude, longitude]));
+                    this.#updateSuntimes();
+                } else {
+                    console.error(`[${NTS.metadata.name}] Invalid response from IP API.`);
+                    // 如果API失败，使用默认坐标作为后备
+                    this.#useDefaultLocation();
+                }
+            } catch (e) {
+                console.error(`[${NTS.metadata.name}] Error fetching location from IP API:\n${e}`);
+                // 如果API失败，使用默认坐标作为后备
+                this.#useDefaultLocation();
+            }
+        });
+    }
+    
+    #useDefaultLocation() {
+        const defaultLatitude = 34.76;
+        const defaultLongitude = 113.65;
+        debug.message(`Using default location as fallback: (${defaultLatitude};${defaultLongitude})`);
+        this.#settings.set_value('location', new GLib.Variant('(dd)', [defaultLatitude, defaultLongitude]));
+        this.#updateSuntimes();
+    }
+
     #onGeoclueReady(_geoclue, result) {
         try {
             // 固定使用我自己的坐标的经纬度坐标
